@@ -1,7 +1,7 @@
 {
   "binance_credentials": {
-    "api_key": "0r8UGE7XwTlVewMoxhvuVA7k7WGNZKmmqBSHJZrwOeJcqamRzy6xROyewRd7TbqD",
-    "api_secret": "c33YDbxpELwNywKC4dvcYoTGCkUj8iX7vRBDu9VXmZcDH0YyTnjCLDYdKjhlJOKd",
+    "api_key": "my_api",
+    "api_secret": "my_secret",
     "testnet": false
   },
   "trading_parameters": {
@@ -167,25 +167,25 @@
     }
   },
   "api_keys": {
-    "telegram_bot_token": "7576187558:AAGkOC0kbdshnNcdjmIdky49wpcV4GK6GyY",
-    "telegram_chat_id": "76590193",
-    "etherscan_api_key": "A89BP14TUNCQ4GCBX9IZ5JSGT66FYYI1EV",
-    "infura_project_id": "5c17f9fe5aaf4e8cb12fe2eec513b960",
-    "alpha_vantage_key": "E4UG15PVP3WHDSBV",
-    "coingecko_api_key": "CG-ZRVbg79Xmx7r5RBSxZy7NRUV",
-    "cryptocompare_api_key": "73f93a638cde9624db6551cdcf089eab59ec217761db0a849bc40019ede8c92c",
-    "messari_api_key": "eggL4un0ns-v9vqbXn9Rb4MWK2sXhaIeP3JWd4POtBBajSvx",
-    "newsdata_api_key": "pub_8884d5fc89be4d9ea24e5baf8b737e01",
-    "coinmarketcap_api_key": "653526d3-8354-4c98-ae5f-e78e929ac7f1",
-    "coinranking_api_key": "coinrankingd0067d5eaf32654550ab4bb4aef44679340c20613927b451",
-    "mediastack_api_key": "bebb599f4eb29a6a9875b627a8e696d4",
-    "gnews_api_key": "9dc8bd039baffe8f07baef85e7d1a36b",
-    "guardian_api_key": "440c8965-c0b4-4191-a82d-68bc98d2daa0",
-    "freecryptoapi_key": "h4mi1946fisj7xtuxuuh",
-    "finnhub_api_key": "d1i2479r01qhsrhcrqo0d1i2479r01qhsrhcrqog",
-    "twelvedata_api_key": "ecd223da0f2a4533982bcd9e3af323f6",
-    "binance_api_key": "0r8UGE7XwTlVewMoxhvuVA7k7WGNZKmmqBSHJZrwOeJcqamRzy6xROyewRd7TbqD",
-    "binance_api_secret": "c33YDbxpELwNywKC4dvcYoTGCkUj8iX7vRBDu9VXmZcDH0YyTnjCLDYdKjhlJOKd"
+    "telegram_bot_token": "-",
+    "telegram_chat_id": "-",
+    "etherscan_api_key": "-",
+    "infura_project_id": "-",
+    "alpha_vantage_key": "-",
+    "coingecko_api_key": "-",
+    "cryptocompare_api_key": "-",
+    "messari_api_key": "-",
+    "newsdata_api_key": "-",
+    "coinmarketcap_api_key": "-",
+    "coinranking_api_key": "-",
+    "mediastack_api_key": "-",
+    "gnews_api_key": "-",
+    "guardian_api_key": "-",
+    "freecryptoapi_key": "-",
+    "finnhub_api_key": "-",
+    "twelvedata_api_key": "-",
+    "binance_api_key": "-",
+    "binance_api_secret": "-"
   },
   "model_paths": {
     "base_dir": "models/",
@@ -561,8 +561,8 @@
     "market_impact_limits": true
   },
   "telegram": {
-    "bot_token": "7576187558:AAGkOC0kbdshnNcdjmIdky49wpcV4GK6GyY",
-    "chat_id": "76590193",
+    "bot_token": "-:-",
+    "chat_id": "-",
     "notifications": {
       "trades": true,
       "performance": true,
