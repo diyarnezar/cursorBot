@@ -1,0 +1,51 @@
+{
+  "session_id": "89e5ee7d",
+  "session_name": "training_month_20250728_192143",
+  "start_time": "2025-07-28 19:21:43.562119",
+  "session_dir": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\logs\\training_month_20250728_192143_89e5ee7d_20250728_192143",
+  "components": [
+    {
+      "name": "training",
+      "level": "INFO",
+      "created_at": "2025-07-28T19:21:43.562119"
+    },
+    {
+      "name": "data",
+      "level": "INFO",
+      "created_at": "2025-07-28T19:21:43.562119"
+    },
+    {
+      "name": "models",
+      "level": "INFO",
+      "created_at": "2025-07-28T19:21:43.571631"
+    },
+    {
+      "name": "hyperion.month_trainer",
+      "level": "INFO",
+      "created_at": "2025-07-28T19:23:34.830430"
+    },
+    {
+      "name": "hyperion.models.enhanced",
+      "level": "INFO",
+      "created_at": "2025-07-28T19:23:34.832427"
+    },
+    {
+      "name": "hyperion.intelligence",
+      "level": "INFO",
+      "created_at": "2025-07-28T19:23:34.833428"
+    },
+    {
+      "name": "hyperion.models.ensemble",
+      "level": "INFO",
+      "created_at": "2025-07-28T19:23:34.836430"
+    },
+    {
+      "name": "session_summary",
+      "level": "INFO",
+      "created_at": "2025-07-29T09:47:55.408502"
+    }
+  ],
+  "end_time": "2025-07-29 09:47:55.405534",
+  "duration_seconds": 51971.843415,
+  "total_loggers": 8
+}

@@ -1,0 +1,11 @@
+2025-07-29 09:47:55,409 - hyperion.session_summary - INFO - end_session:268 - ================================================================================
+2025-07-29 09:47:55,409 - hyperion.session_summary - INFO - end_session:269 - SESSION SUMMARY
+2025-07-29 09:47:55,410 - hyperion.session_summary - INFO - end_session:270 - ================================================================================
+2025-07-29 09:47:55,410 - hyperion.session_summary - INFO - end_session:271 - Session ID: 89e5ee7d
+2025-07-29 09:47:55,411 - hyperion.session_summary - INFO - end_session:272 - Session Name: training_month_20250728_192143
+2025-07-29 09:47:55,411 - hyperion.session_summary - INFO - end_session:273 - Start Time: 2025-07-28 19:21:43.562119
+2025-07-29 09:47:55,414 - hyperion.session_summary - INFO - end_session:274 - End Time: 2025-07-29 09:47:55.405534
+2025-07-29 09:47:55,415 - hyperion.session_summary - INFO - end_session:275 - Duration: 51971.84 seconds
+2025-07-29 09:47:55,415 - hyperion.session_summary - INFO - end_session:276 - Total Loggers: 9
+2025-07-29 09:47:55,415 - hyperion.session_summary - INFO - end_session:277 - Session Directory: C:\Users\dyars\Desktop\cursor_ai_test_bot\project_hyperion\logs\training_month_20250728_192143_89e5ee7d_20250728_192143
+2025-07-29 09:47:55,415 - hyperion.session_summary - INFO - end_session:278 - ================================================================================

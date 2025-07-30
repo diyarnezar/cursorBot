@@ -1,0 +1,2106 @@
+{
+  "audit_timestamp": "2025-07-28T14:52:52.657447",
+  "audit_summary": {
+    "total_files_analyzed": 11,
+    "files_with_issues": 11,
+    "total_issues_found": 207,
+    "features_tested": 11,
+    "features_with_issues": 7,
+    "realistic_performance": false
+  },
+  "static_analysis": {
+    "total_files_analyzed": 11,
+    "files_with_issues": 11,
+    "total_issues_found": 207,
+    "issues_by_type": {
+      "future_aggregation": 185,
+      "future_lookahead": 1,
+      "future_time": 21
+    },
+    "file_issues": {
+      "psychology": [
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 110,
+          "line_content": "volume_surge = df['volume'] / df['volume'].rolling(window).mean()",
+          "feature_name": "psychology",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\psychology\\psychology_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 144,
+          "line_content": "volume_spike = df['volume'] / df['volume'].rolling(window).mean()",
+          "feature_name": "psychology",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\psychology\\psychology_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 178,
+          "line_content": "volume_extreme = df['volume'] / df['volume'].rolling(window * 2).mean()",
+          "feature_name": "psychology",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\psychology\\psychology_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 184,
+          "line_content": "momentum_sustainability = price_momentum.rolling(window).mean()",
+          "feature_name": "psychology",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\psychology\\psychology_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 214,
+          "line_content": "volume_extreme = df['volume'] / df['volume'].rolling(window * 2).mean()",
+          "feature_name": "psychology",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\psychology\\psychology_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 220,
+          "line_content": "momentum_sustainability = price_momentum.rolling(window).mean()",
+          "feature_name": "psychology",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\psychology\\psychology_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 289,
+          "line_content": "price_consistency = np.abs(price_momentum.rolling(window).mean()) / (price_volatility + 1e-8)",
+          "feature_name": "psychology",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\psychology\\psychology_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 250,
+          "line_content": "volatility = df['close'].rolling(window).std() / df['close']",
+          "feature_name": "psychology",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\psychology\\psychology_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 281,
+          "line_content": "price_volatility = df['close'].rolling(window).std() / df['close']",
+          "feature_name": "psychology",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\psychology\\psychology_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 327,
+          "line_content": "momentum_consistency = price_momentum.rolling(window).std()",
+          "feature_name": "psychology",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\psychology\\psychology_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.max\\(\\)",
+          "line_number": 185,
+          "line_content": "overbought_condition = (df['close'] - df['close'].rolling(window).min()) / (df['close'].rolling(window).max() - df['close'].rolling(window).min())",
+          "feature_name": "psychology",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\psychology\\psychology_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.max\\(\\)",
+          "line_number": 221,
+          "line_content": "oversold_condition = 1 - (df['close'] - df['close'].rolling(window).min()) / (df['close'].rolling(window).max() - df['close'].rolling(window).min())",
+          "feature_name": "psychology",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\psychology\\psychology_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.min\\(\\)",
+          "line_number": 185,
+          "line_content": "overbought_condition = (df['close'] - df['close'].rolling(window).min()) / (df['close'].rolling(window).max() - df['close'].rolling(window).min())",
+          "feature_name": "psychology",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\psychology\\psychology_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.min\\(\\)",
+          "line_number": 221,
+          "line_content": "oversold_condition = 1 - (df['close'] - df['close'].rolling(window).min()) / (df['close'].rolling(window).max() - df['close'].rolling(window).min())",
+          "feature_name": "psychology",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\psychology\\psychology_features.py",
+          "severity": "MEDIUM"
+        }
+      ],
+      "external_alpha": [
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 80,
+          "line_content": "df['external_sentiment_momentum'] = df['external_news_sentiment'].rolling(window=5).mean()",
+          "feature_name": "external_alpha",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\external_alpha\\external_alpha_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 100,
+          "line_content": "df['external_social_momentum'] = df['external_social_sentiment'].rolling(window=5).mean()",
+          "feature_name": "external_alpha",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\external_alpha\\external_alpha_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 114,
+          "line_content": "df['external_economic_momentum'] = df['external_economic_sentiment'].rolling(window=10).mean()",
+          "feature_name": "external_alpha",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\external_alpha\\external_alpha_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 134,
+          "line_content": "df['external_correlation_momentum'] = df['external_market_correlation'].rolling(window=5).mean()",
+          "feature_name": "external_alpha",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\external_alpha\\external_alpha_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 151,
+          "line_content": "df['external_cross_asset_momentum'] = df['external_cross_asset_correlation'].rolling(window=10).mean()",
+          "feature_name": "external_alpha",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\external_alpha\\external_alpha_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 165,
+          "line_content": "df['external_macro_momentum'] = df['external_macro_sentiment'].rolling(window=15).mean()",
+          "feature_name": "external_alpha",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\external_alpha\\external_alpha_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 182,
+          "line_content": "df['external_risk_momentum'] = df['external_geopolitical_risk'].rolling(window=10).mean()",
+          "feature_name": "external_alpha",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\external_alpha\\external_alpha_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 202,
+          "line_content": "df['external_signal_momentum'] = df['external_alternative_signal'].rolling(window=5).mean()",
+          "feature_name": "external_alpha",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\external_alpha\\external_alpha_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 83,
+          "line_content": "df['external_sentiment_volatility'] = df['external_news_sentiment'].rolling(window=20).std()",
+          "feature_name": "external_alpha",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\external_alpha\\external_alpha_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 117,
+          "line_content": "df['external_economic_volatility'] = df['external_economic_sentiment'].rolling(window=20).std()",
+          "feature_name": "external_alpha",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\external_alpha\\external_alpha_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 131,
+          "line_content": "df['external_correlation_stability'] = 1 - abs(df['external_market_correlation']).rolling(window=10).std()",
+          "feature_name": "external_alpha",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\external_alpha\\external_alpha_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 168,
+          "line_content": "df['external_macro_volatility'] = df['external_macro_sentiment'].rolling(window=30).std()",
+          "feature_name": "external_alpha",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\external_alpha\\external_alpha_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 185,
+          "line_content": "df['external_risk_volatility'] = df['external_geopolitical_risk'].rolling(window=20).std()",
+          "feature_name": "external_alpha",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\external_alpha\\external_alpha_features.py",
+          "severity": "MEDIUM"
+        }
+      ],
+      "microstructure": [
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 149,
+          "line_content": "volume_ratio = df['volume'] / df['volume'].rolling(window).mean()",
+          "feature_name": "microstructure",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\microstructure\\microstructure_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 174,
+          "line_content": "volume_mean = df['volume'].rolling(window).mean()",
+          "feature_name": "microstructure",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\microstructure\\microstructure_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 199,
+          "line_content": "volume_ma = df['volume'].rolling(window).mean()",
+          "feature_name": "microstructure",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\microstructure\\microstructure_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 224,
+          "line_content": "volume_ma = df['volume'].rolling(window).mean()",
+          "feature_name": "microstructure",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\microstructure\\microstructure_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 256,
+          "line_content": "price_impact = price_impact.rolling(window).mean()",
+          "feature_name": "microstructure",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\microstructure\\microstructure_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 274,
+          "line_content": "volume_ma = df['volume'].rolling(window).mean()",
+          "feature_name": "microstructure",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\microstructure\\microstructure_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 306,
+          "line_content": "price_ma = price_change.rolling(window).mean()",
+          "feature_name": "microstructure",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\microstructure\\microstructure_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 307,
+          "line_content": "volume_ma = volume_change.rolling(window).mean()",
+          "feature_name": "microstructure",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\microstructure\\microstructure_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 332,
+          "line_content": "volume_ratio = df['volume'] / df['volume'].rolling(window).mean()",
+          "feature_name": "microstructure",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\microstructure\\microstructure_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 362,
+          "line_content": "volume_impact = df['volume'] / df['volume'].rolling(window).mean()",
+          "feature_name": "microstructure",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\microstructure\\microstructure_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 120,
+          "line_content": "price_volatility = df['close'].rolling(window).std() / df['close']",
+          "feature_name": "microstructure",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\microstructure\\microstructure_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 175,
+          "line_content": "volume_std = df['volume'].rolling(window).std()",
+          "feature_name": "microstructure",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\microstructure\\microstructure_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 200,
+          "line_content": "price_volatility = df['close'].rolling(window).std() / df['close']",
+          "feature_name": "microstructure",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\microstructure\\microstructure_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 283,
+          "line_content": "trade_flow_std = trade_flow.rolling(window).std()",
+          "feature_name": "microstructure",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\microstructure\\microstructure_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 313,
+          "line_content": "noise = noise / noise.rolling(window).std()",
+          "feature_name": "microstructure",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\microstructure\\microstructure_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 363,
+          "line_content": "price_volatility = df['close'].rolling(window).std() / df['close']",
+          "feature_name": "microstructure",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\microstructure\\microstructure_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 397,
+          "line_content": "flow_volatility = pd.Series(volume_change).abs().rolling(window).std()",
+          "feature_name": "microstructure",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\microstructure\\microstructure_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 403,
+          "line_content": "0.3 * np.abs(price_change).rolling(window).std()",
+          "feature_name": "microstructure",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\microstructure\\microstructure_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.max\\(\\)",
+          "line_number": 207,
+          "line_content": "market_depth = market_depth / market_depth.rolling(window).max()",
+          "feature_name": "microstructure",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\microstructure\\microstructure_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.max\\(\\)",
+          "line_number": 232,
+          "line_content": "liquidity_metric = liquidity_metric / liquidity_metric.rolling(window).max()",
+          "feature_name": "microstructure",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\microstructure\\microstructure_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.max\\(\\)",
+          "line_number": 257,
+          "line_content": "price_impact = price_impact / price_impact.rolling(window).max()",
+          "feature_name": "microstructure",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\microstructure\\microstructure_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.max\\(\\)",
+          "line_number": 374,
+          "line_content": "market_impact = market_impact / market_impact.rolling(window).max()",
+          "feature_name": "microstructure",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\microstructure\\microstructure_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.max\\(\\)",
+          "line_number": 407,
+          "line_content": "microstructure_volatility = microstructure_volatility / microstructure_volatility.rolling(window).max()",
+          "feature_name": "microstructure",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\microstructure\\microstructure_features.py",
+          "severity": "MEDIUM"
+        }
+      ],
+      "patterns": [
+        {
+          "type": "future_lookahead",
+          "pattern": "\\.iloc\\[.*\\+.*\\]",
+          "line_number": 118,
+          "line_content": "prices = df['high'].iloc[i-window:i+1]",
+          "feature_name": "patterns",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\patterns\\pattern_features.py",
+          "severity": "LOW"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 211,
+          "line_content": "avg_volume = df['volume'].rolling(window=20).mean()",
+          "feature_name": "patterns",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\patterns\\pattern_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 263,
+          "line_content": "avg_volume = df['volume'].rolling(window=20).mean()",
+          "feature_name": "patterns",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\patterns\\pattern_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.max\\(\\)",
+          "line_number": 161,
+          "line_content": "high = df['high'].rolling(window=20).max()",
+          "feature_name": "patterns",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\patterns\\pattern_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.max\\(\\)",
+          "line_number": 187,
+          "line_content": "df['pattern_resistance_level'] = df['high'].rolling(window=20).max()",
+          "feature_name": "patterns",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\patterns\\pattern_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.min\\(\\)",
+          "line_number": 162,
+          "line_content": "low = df['low'].rolling(window=20).min()",
+          "feature_name": "patterns",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\patterns\\pattern_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.min\\(\\)",
+          "line_number": 183,
+          "line_content": "df['pattern_support_level'] = df['low'].rolling(window=20).min()",
+          "feature_name": "patterns",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\patterns\\pattern_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_time",
+          "pattern": "\\.shift\\(.*\\)",
+          "line_number": 94,
+          "line_content": "df['pattern_bullish_engulfing'] = ((df['open'] < df['close'].shift(1)) &",
+          "feature_name": "patterns",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\patterns\\pattern_features.py",
+          "severity": "LOW"
+        },
+        {
+          "type": "future_time",
+          "pattern": "\\.shift\\(.*\\)",
+          "line_number": 95,
+          "line_content": "(df['close'] > df['open'].shift(1)) &",
+          "feature_name": "patterns",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\patterns\\pattern_features.py",
+          "severity": "LOW"
+        },
+        {
+          "type": "future_time",
+          "pattern": "\\.shift\\(.*\\)",
+          "line_number": 96,
+          "line_content": "(df['open'] < df['close'].shift(1)) &",
+          "feature_name": "patterns",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\patterns\\pattern_features.py",
+          "severity": "LOW"
+        },
+        {
+          "type": "future_time",
+          "pattern": "\\.shift\\(.*\\)",
+          "line_number": 97,
+          "line_content": "(df['close'] > df['open'].shift(1))).astype(int)",
+          "feature_name": "patterns",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\patterns\\pattern_features.py",
+          "severity": "LOW"
+        },
+        {
+          "type": "future_time",
+          "pattern": "\\.shift\\(.*\\)",
+          "line_number": 99,
+          "line_content": "df['pattern_bearish_engulfing'] = ((df['open'] > df['close'].shift(1)) &",
+          "feature_name": "patterns",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\patterns\\pattern_features.py",
+          "severity": "LOW"
+        },
+        {
+          "type": "future_time",
+          "pattern": "\\.shift\\(.*\\)",
+          "line_number": 100,
+          "line_content": "(df['close'] < df['open'].shift(1)) &",
+          "feature_name": "patterns",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\patterns\\pattern_features.py",
+          "severity": "LOW"
+        },
+        {
+          "type": "future_time",
+          "pattern": "\\.shift\\(.*\\)",
+          "line_number": 101,
+          "line_content": "(df['open'] > df['close'].shift(1)) &",
+          "feature_name": "patterns",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\patterns\\pattern_features.py",
+          "severity": "LOW"
+        },
+        {
+          "type": "future_time",
+          "pattern": "\\.shift\\(.*\\)",
+          "line_number": 102,
+          "line_content": "(df['close'] < df['open'].shift(1))).astype(int)",
+          "feature_name": "patterns",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\patterns\\pattern_features.py",
+          "severity": "LOW"
+        },
+        {
+          "type": "future_time",
+          "pattern": "\\.shift\\(.*\\)",
+          "line_number": 204,
+          "line_content": "(df['close'].shift(1) <= df['pattern_resistance_level'].shift(1))).astype(int)",
+          "feature_name": "patterns",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\patterns\\pattern_features.py",
+          "severity": "LOW"
+        },
+        {
+          "type": "future_time",
+          "pattern": "\\.shift\\(.*\\)",
+          "line_number": 208,
+          "line_content": "(df['close'].shift(1) >= df['pattern_support_level'].shift(1))).astype(int)",
+          "feature_name": "patterns",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\patterns\\pattern_features.py",
+          "severity": "LOW"
+        },
+        {
+          "type": "future_time",
+          "pattern": "\\.shift\\(.*\\)",
+          "line_number": 285,
+          "line_content": "df['pattern_inside_bar'] = ((df['high'] <= df['high'].shift(1)) &",
+          "feature_name": "patterns",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\patterns\\pattern_features.py",
+          "severity": "LOW"
+        },
+        {
+          "type": "future_time",
+          "pattern": "\\.shift\\(.*\\)",
+          "line_number": 286,
+          "line_content": "(df['low'] >= df['low'].shift(1))).astype(int)",
+          "feature_name": "patterns",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\patterns\\pattern_features.py",
+          "severity": "LOW"
+        },
+        {
+          "type": "future_time",
+          "pattern": "\\.shift\\(.*\\)",
+          "line_number": 289,
+          "line_content": "df['pattern_outside_bar'] = ((df['high'] > df['high'].shift(1)) &",
+          "feature_name": "patterns",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\patterns\\pattern_features.py",
+          "severity": "LOW"
+        },
+        {
+          "type": "future_time",
+          "pattern": "\\.shift\\(.*\\)",
+          "line_number": 290,
+          "line_content": "(df['low'] < df['low'].shift(1))).astype(int)",
+          "feature_name": "patterns",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\patterns\\pattern_features.py",
+          "severity": "LOW"
+        }
+      ],
+      "regime_detection": [
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 75,
+          "line_content": "vol_mean = volatility.rolling(window=50).mean()",
+          "feature_name": "regime_detection",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\regime_detection\\regime_detection_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 100,
+          "line_content": "short_ma = df['close'].rolling(window=10).mean()",
+          "feature_name": "regime_detection",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\regime_detection\\regime_detection_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 101,
+          "line_content": "long_ma = df['close'].rolling(window=50).mean()",
+          "feature_name": "regime_detection",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\regime_detection\\regime_detection_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 127,
+          "line_content": "volume_mean = df['volume'].rolling(window=50).mean()",
+          "feature_name": "regime_detection",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\regime_detection\\regime_detection_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 72,
+          "line_content": "volatility = returns.rolling(window=20).std()",
+          "feature_name": "regime_detection",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\regime_detection\\regime_detection_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 76,
+          "line_content": "vol_std = volatility.rolling(window=50).std()",
+          "feature_name": "regime_detection",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\regime_detection\\regime_detection_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 128,
+          "line_content": "volume_std = df['volume'].rolling(window=50).std()",
+          "feature_name": "regime_detection",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\regime_detection\\regime_detection_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 193,
+          "line_content": "df['regime_stability'] = 1 - df['regime_combined_score'].rolling(window=10).std()",
+          "feature_name": "regime_detection",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\regime_detection\\regime_detection_features.py",
+          "severity": "MEDIUM"
+        }
+      ],
+      "volatility_momentum": [
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 120,
+          "line_content": "vol_mean = df['vol_mom_price_volatility'].rolling(window=50).mean()",
+          "feature_name": "volatility_momentum",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\volatility_momentum\\volatility_momentum_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 141,
+          "line_content": "mom_mean = df['vol_mom_price_momentum'].rolling(window=50).mean()",
+          "feature_name": "volatility_momentum",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\volatility_momentum\\volatility_momentum_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 162,
+          "line_content": "df['vol_mom_vol_clustering'] = df['vol_mom_price_volatility'].rolling(window=5).mean()",
+          "feature_name": "volatility_momentum",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\volatility_momentum\\volatility_momentum_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 179,
+          "line_content": "df['vol_mom_momentum_persistence'] = df['vol_mom_price_momentum'].rolling(window=5).mean()",
+          "feature_name": "volatility_momentum",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\volatility_momentum\\volatility_momentum_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 196,
+          "line_content": "df['vol_mom_volatility_forecast'] = df['vol_mom_price_volatility'].rolling(window=10).mean()",
+          "feature_name": "volatility_momentum",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\volatility_momentum\\volatility_momentum_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 213,
+          "line_content": "df['vol_mom_momentum_forecast'] = df['vol_mom_price_momentum'].rolling(window=10).mean()",
+          "feature_name": "volatility_momentum",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\volatility_momentum\\volatility_momentum_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 239,
+          "line_content": "df['vol_mom_signal_momentum'] = df['vol_mom_combined_signal'].rolling(window=5).mean()",
+          "feature_name": "volatility_momentum",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\volatility_momentum\\volatility_momentum_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 80,
+          "line_content": "df['vol_mom_price_volatility'] = returns.rolling(window=20).std()",
+          "feature_name": "volatility_momentum",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\volatility_momentum\\volatility_momentum_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 83,
+          "line_content": "df['vol_mom_volume_volatility'] = df['volume'].pct_change().rolling(window=20).std()",
+          "feature_name": "volatility_momentum",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\volatility_momentum\\volatility_momentum_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 86,
+          "line_content": "df['vol_mom_hl_volatility'] = ((df['high'] - df['low']) / df['close']).rolling(window=20).std()",
+          "feature_name": "volatility_momentum",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\volatility_momentum\\volatility_momentum_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 89,
+          "line_content": "df['vol_mom_vol_of_vol'] = df['vol_mom_price_volatility'].rolling(window=10).std()",
+          "feature_name": "volatility_momentum",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\volatility_momentum\\volatility_momentum_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 130,
+          "line_content": "df['vol_mom_vol_regime_stability'] = 1 - df['vol_mom_volatility_regime'].rolling(window=10).std()",
+          "feature_name": "volatility_momentum",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\volatility_momentum\\volatility_momentum_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 151,
+          "line_content": "df['vol_mom_mom_regime_stability'] = 1 - df['vol_mom_momentum_regime'].rolling(window=10).std()",
+          "feature_name": "volatility_momentum",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\volatility_momentum\\volatility_momentum_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 168,
+          "line_content": "df['vol_mom_vol_clustering_persistence'] = df['vol_mom_vol_clustering'].rolling(window=10).std()",
+          "feature_name": "volatility_momentum",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\volatility_momentum\\volatility_momentum_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 185,
+          "line_content": "df['vol_mom_momentum_persistence_stability'] = 1 - df['vol_mom_momentum_persistence'].rolling(window=10).std()",
+          "feature_name": "volatility_momentum",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\volatility_momentum\\volatility_momentum_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 236,
+          "line_content": "df['vol_mom_signal_stability'] = 1 - df['vol_mom_combined_signal'].rolling(window=10).std()",
+          "feature_name": "volatility_momentum",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\volatility_momentum\\volatility_momentum_features.py",
+          "severity": "MEDIUM"
+        }
+      ],
+      "adaptive_risk": [
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 83,
+          "line_content": "vol_mean = df['adaptive_dynamic_volatility'].rolling(window=50).mean()",
+          "feature_name": "adaptive_risk",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\adaptive_risk\\adaptive_risk_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 121,
+          "line_content": "df['adaptive_correlation_momentum'] = df['adaptive_correlation_risk'].rolling(window=5).mean()",
+          "feature_name": "adaptive_risk",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\adaptive_risk\\adaptive_risk_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 135,
+          "line_content": "df['adaptive_liquidity_trend'] = df['adaptive_liquidity_risk'].rolling(window=10).mean()",
+          "feature_name": "adaptive_risk",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\adaptive_risk\\adaptive_risk_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 155,
+          "line_content": "df['adaptive_concentration_momentum'] = df['adaptive_concentration_risk'].rolling(window=5).mean()",
+          "feature_name": "adaptive_risk",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\adaptive_risk\\adaptive_risk_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 175,
+          "line_content": "df['adaptive_drawdown_momentum'] = df['adaptive_drawdown'].rolling(window=5).mean()",
+          "feature_name": "adaptive_risk",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\adaptive_risk\\adaptive_risk_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 193,
+          "line_content": "df['adaptive_tail_risk_momentum'] = df['adaptive_tail_risk'].rolling(window=5).mean()",
+          "feature_name": "adaptive_risk",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\adaptive_risk\\adaptive_risk_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 227,
+          "line_content": "df['adaptive_position_momentum'] = df['adaptive_position_size'].rolling(window=5).mean()",
+          "feature_name": "adaptive_risk",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\adaptive_risk\\adaptive_risk_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 80,
+          "line_content": "df['adaptive_dynamic_volatility'] = returns.rolling(window=20).std()",
+          "feature_name": "adaptive_risk",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\adaptive_risk\\adaptive_risk_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 101,
+          "line_content": "df['adaptive_regime_stability'] = 1 - df['adaptive_market_regime'].rolling(window=10).std()",
+          "feature_name": "adaptive_risk",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\adaptive_risk\\adaptive_risk_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 118,
+          "line_content": "df['adaptive_correlation_stability'] = 1 - df['adaptive_correlation_risk'].rolling(window=10).std()",
+          "feature_name": "adaptive_risk",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\adaptive_risk\\adaptive_risk_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 138,
+          "line_content": "df['adaptive_liquidity_volatility'] = df['adaptive_liquidity_risk'].rolling(window=20).std()",
+          "feature_name": "adaptive_risk",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\adaptive_risk\\adaptive_risk_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 152,
+          "line_content": "df['adaptive_concentration_stability'] = 1 - df['adaptive_concentration_risk'].rolling(window=10).std()",
+          "feature_name": "adaptive_risk",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\adaptive_risk\\adaptive_risk_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 190,
+          "line_content": "df['adaptive_tail_risk_stability'] = 1 - abs(df['adaptive_tail_risk']).rolling(window=10).std()",
+          "feature_name": "adaptive_risk",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\adaptive_risk\\adaptive_risk_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 224,
+          "line_content": "df['adaptive_position_stability'] = 1 - df['adaptive_position_size'].rolling(window=10).std()",
+          "feature_name": "adaptive_risk",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\adaptive_risk\\adaptive_risk_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.max\\(\\)",
+          "line_number": 166,
+          "line_content": "rolling_max = df['close'].rolling(window=50).max()",
+          "feature_name": "adaptive_risk",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\adaptive_risk\\adaptive_risk_features.py",
+          "severity": "MEDIUM"
+        }
+      ],
+      "profitability": [
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 87,
+          "line_content": "df['profit_momentum'] = df['profit_price_change'].rolling(window=5).mean()",
+          "feature_name": "profitability",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\profitability\\profitability_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 119,
+          "line_content": "df['profit_return_momentum'] = df['profit_simple_return'].rolling(window=10).mean()",
+          "feature_name": "profitability",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\profitability\\profitability_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 135,
+          "line_content": "df['profit_sharpe_ratio'] = excess_returns.rolling(window=20).mean() / (returns.rolling(window=20).std() + 1e-8)",
+          "feature_name": "profitability",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\profitability\\profitability_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 138,
+          "line_content": "df['profit_sharpe_momentum'] = df['profit_sharpe_ratio'].rolling(window=10).mean()",
+          "feature_name": "profitability",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\profitability\\profitability_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 159,
+          "line_content": "df['profit_sortino_ratio'] = excess_returns.rolling(window=20).mean() / (downside_std + 1e-8)",
+          "feature_name": "profitability",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\profitability\\profitability_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 162,
+          "line_content": "df['profit_sortino_momentum'] = df['profit_sortino_ratio'].rolling(window=10).mean()",
+          "feature_name": "profitability",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\profitability\\profitability_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 177,
+          "line_content": "annual_return = returns.rolling(window=20).mean() * 365 * 24",
+          "feature_name": "profitability",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\profitability\\profitability_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 182,
+          "line_content": "df['profit_calmar_momentum'] = df['profit_calmar_ratio'].rolling(window=10).mean()",
+          "feature_name": "profitability",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\profitability\\profitability_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 202,
+          "line_content": "df['profit_factor_momentum'] = df['profit_factor'].rolling(window=10).mean()",
+          "feature_name": "profitability",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\profitability\\profitability_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 217,
+          "line_content": "df['profit_win_rate'] = (returns > 0).rolling(window=20).mean()",
+          "feature_name": "profitability",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\profitability\\profitability_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 220,
+          "line_content": "df['profit_win_rate_momentum'] = df['profit_win_rate'].rolling(window=10).mean()",
+          "feature_name": "profitability",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\profitability\\profitability_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 241,
+          "line_content": "df['profit_risk_adjusted_return'] = returns.rolling(window=20).mean() / (returns.rolling(window=20).std() + 1e-8)",
+          "feature_name": "profitability",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\profitability\\profitability_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 244,
+          "line_content": "df['profit_risk_adjusted_momentum'] = df['profit_risk_adjusted_return'].rolling(window=10).mean()",
+          "feature_name": "profitability",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\profitability\\profitability_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 250,
+          "line_content": "benchmark_return = returns.rolling(window=50).mean()  # Simple benchmark",
+          "feature_name": "profitability",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\profitability\\profitability_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 252,
+          "line_content": "df['profit_information_ratio'] = active_return.rolling(window=20).mean() / (active_return.rolling(window=20).std() + 1e-8)",
+          "feature_name": "profitability",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\profitability\\profitability_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 298,
+          "line_content": "df['profit_sustainability'] = df['profit_reliability'].rolling(window=10).mean()",
+          "feature_name": "profitability",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\profitability\\profitability_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 90,
+          "line_content": "df['profit_volatility'] = df['profit_price_change'].rolling(window=20).std()",
+          "feature_name": "profitability",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\profitability\\profitability_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 122,
+          "line_content": "df['profit_return_stability'] = 1 - df['profit_simple_return'].rolling(window=20).std()",
+          "feature_name": "profitability",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\profitability\\profitability_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 135,
+          "line_content": "df['profit_sharpe_ratio'] = excess_returns.rolling(window=20).mean() / (returns.rolling(window=20).std() + 1e-8)",
+          "feature_name": "profitability",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\profitability\\profitability_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 141,
+          "line_content": "df['profit_sharpe_stability'] = 1 - df['profit_sharpe_ratio'].rolling(window=10).std()",
+          "feature_name": "profitability",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\profitability\\profitability_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 158,
+          "line_content": "downside_std = downside_returns.rolling(window=20).std()",
+          "feature_name": "profitability",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\profitability\\profitability_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 165,
+          "line_content": "df['profit_sortino_stability'] = 1 - df['profit_sortino_ratio'].rolling(window=10).std()",
+          "feature_name": "profitability",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\profitability\\profitability_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 185,
+          "line_content": "df['profit_calmar_stability'] = 1 - df['profit_calmar_ratio'].rolling(window=10).std()",
+          "feature_name": "profitability",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\profitability\\profitability_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 205,
+          "line_content": "df['profit_factor_stability'] = 1 - df['profit_factor'].rolling(window=10).std()",
+          "feature_name": "profitability",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\profitability\\profitability_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 223,
+          "line_content": "df['profit_win_rate_stability'] = 1 - df['profit_win_rate'].rolling(window=10).std()",
+          "feature_name": "profitability",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\profitability\\profitability_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 241,
+          "line_content": "df['profit_risk_adjusted_return'] = returns.rolling(window=20).mean() / (returns.rolling(window=20).std() + 1e-8)",
+          "feature_name": "profitability",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\profitability\\profitability_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 247,
+          "line_content": "df['profit_risk_adjusted_stability'] = 1 - df['profit_risk_adjusted_return'].rolling(window=10).std()",
+          "feature_name": "profitability",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\profitability\\profitability_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 252,
+          "line_content": "df['profit_information_ratio'] = active_return.rolling(window=20).mean() / (active_return.rolling(window=20).std() + 1e-8)",
+          "feature_name": "profitability",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\profitability\\profitability_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 286,
+          "line_content": "df['profit_stability'] = 1 - df['profit_simple_return'].rolling(window=20).std()",
+          "feature_name": "profitability",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\profitability\\profitability_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 289,
+          "line_content": "df['profit_consistency'] = (df['profit_simple_return'] > 0).rolling(window=20).std()",
+          "feature_name": "profitability",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\profitability\\profitability_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.max\\(\\)",
+          "line_number": 307,
+          "line_content": "rolling_max = prices.rolling(window=50).max()",
+          "feature_name": "profitability",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\profitability\\profitability_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.min\\(\\)",
+          "line_number": 309,
+          "line_content": "return abs(drawdown.rolling(window=20).min())",
+          "feature_name": "profitability",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\profitability\\profitability_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_time",
+          "pattern": "\\.shift\\(.*\\)",
+          "line_number": 107,
+          "line_content": "df['profit_simple_return'] = df['close'] / df['close'].shift(1) - 1",
+          "feature_name": "profitability",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\profitability\\profitability_features.py",
+          "severity": "LOW"
+        },
+        {
+          "type": "future_time",
+          "pattern": "\\.shift\\(.*\\)",
+          "line_number": 110,
+          "line_content": "df['profit_log_return'] = np.log(df['close'] / df['close'].shift(1))",
+          "feature_name": "profitability",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\profitability\\profitability_features.py",
+          "severity": "LOW"
+        },
+        {
+          "type": "future_time",
+          "pattern": "\\.shift\\(.*\\)",
+          "line_number": 116,
+          "line_content": "df['profit_rolling_return'] = df['close'] / df['close'].shift(20) - 1",
+          "feature_name": "profitability",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\profitability\\profitability_features.py",
+          "severity": "MEDIUM"
+        }
+      ],
+      "meta_learning": [
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 81,
+          "line_content": "df['meta_volatility_similarity'] = volatility / volatility.rolling(window=50).mean()",
+          "feature_name": "meta_learning",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\meta_learning\\meta_learning_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 84,
+          "line_content": "volume_pattern = df['volume'].rolling(window=10).mean()",
+          "feature_name": "meta_learning",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\meta_learning\\meta_learning_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 85,
+          "line_content": "df['meta_volume_similarity'] = volume_pattern / volume_pattern.rolling(window=50).mean()",
+          "feature_name": "meta_learning",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\meta_learning\\meta_learning_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 133,
+          "line_content": "df['meta_efficiency_trend'] = df['meta_learning_efficiency'].rolling(window=10).mean()",
+          "feature_name": "meta_learning",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\meta_learning\\meta_learning_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 153,
+          "line_content": "df['meta_generalization_trend'] = df['meta_generalization'].rolling(window=10).mean()",
+          "feature_name": "meta_learning",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\meta_learning\\meta_learning_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 80,
+          "line_content": "volatility = df['close'].pct_change().rolling(window=20).std()",
+          "feature_name": "meta_learning",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\meta_learning\\meta_learning_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 102,
+          "line_content": "df['meta_transfer_stability'] = 1 - df['meta_knowledge_transfer'].rolling(window=10).std()",
+          "feature_name": "meta_learning",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\meta_learning\\meta_learning_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 119,
+          "line_content": "df['meta_speed_stability'] = 1 - df['meta_adaptation_speed'].rolling(window=10).std()",
+          "feature_name": "meta_learning",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\meta_learning\\meta_learning_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 136,
+          "line_content": "df['meta_efficiency_volatility'] = df['meta_learning_efficiency'].rolling(window=20).std()",
+          "feature_name": "meta_learning",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\meta_learning\\meta_learning_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 150,
+          "line_content": "df['meta_generalization_stability'] = 1 - df['meta_generalization'].rolling(window=10).std()",
+          "feature_name": "meta_learning",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\meta_learning\\meta_learning_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 187,
+          "line_content": "df['meta_gradient_stability'] = 1 - abs(df['meta_gradient_direction']).rolling(window=10).std()",
+          "feature_name": "meta_learning",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\meta_learning\\meta_learning_features.py",
+          "severity": "MEDIUM"
+        }
+      ],
+      "ai_enhanced": [
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 289,
+          "line_content": "features['price_ma_ratio'] = df['close'] / df['close'].rolling(window).mean()",
+          "feature_name": "ai_enhanced",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\ai_enhanced\\ai_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 294,
+          "line_content": "features['volume_ma_ratio'] = df['volume'] / df['volume'].rolling(window).mean()",
+          "feature_name": "ai_enhanced",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\ai_enhanced\\ai_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 300,
+          "line_content": "features['bollinger_position'] = (df['close'] - df['close'].rolling(window).mean()) / (df['close'].rolling(window).std() * 2)",
+          "feature_name": "ai_enhanced",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\ai_enhanced\\ai_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 325,
+          "line_content": "features['volume_volatility'] = df['volume'].rolling(window).std() / df['volume'].rolling(window).mean()",
+          "feature_name": "ai_enhanced",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\ai_enhanced\\ai_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 329,
+          "line_content": "features['bollinger_width'] = (df['close'].rolling(window).mean() + 2 * df['close'].rolling(window).std()) - (df['close'].rolling(window).mean() - 2 * df['close'].rolling(window).std())",
+          "feature_name": "ai_enhanced",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\ai_enhanced\\ai_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 343,
+          "line_content": "features['price_momentum_ma'] = features['price_momentum'].rolling(window).mean()",
+          "feature_name": "ai_enhanced",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\ai_enhanced\\ai_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 366,
+          "line_content": "features['volume_ma'] = df['volume'].rolling(window).mean()",
+          "feature_name": "ai_enhanced",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\ai_enhanced\\ai_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 534,
+          "line_content": "gain = (delta.where(delta > 0, 0)).rolling(window=window).mean()",
+          "feature_name": "ai_enhanced",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\ai_enhanced\\ai_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 535,
+          "line_content": "loss = (-delta.where(delta < 0, 0)).rolling(window=window).mean()",
+          "feature_name": "ai_enhanced",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\ai_enhanced\\ai_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 554,
+          "line_content": "atr = true_range.rolling(window).mean()",
+          "feature_name": "ai_enhanced",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\ai_enhanced\\ai_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 290,
+          "line_content": "features['price_std'] = df['close'].rolling(window).std()",
+          "feature_name": "ai_enhanced",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\ai_enhanced\\ai_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 300,
+          "line_content": "features['bollinger_position'] = (df['close'] - df['close'].rolling(window).mean()) / (df['close'].rolling(window).std() * 2)",
+          "feature_name": "ai_enhanced",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\ai_enhanced\\ai_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 317,
+          "line_content": "features['realized_volatility'] = returns.rolling(window).std()",
+          "feature_name": "ai_enhanced",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\ai_enhanced\\ai_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 318,
+          "line_content": "features['volatility_of_volatility'] = features['realized_volatility'].rolling(window).std()",
+          "feature_name": "ai_enhanced",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\ai_enhanced\\ai_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 325,
+          "line_content": "features['volume_volatility'] = df['volume'].rolling(window).std() / df['volume'].rolling(window).mean()",
+          "feature_name": "ai_enhanced",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\ai_enhanced\\ai_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 329,
+          "line_content": "features['bollinger_width'] = (df['close'].rolling(window).mean() + 2 * df['close'].rolling(window).std()) - (df['close'].rolling(window).mean() - 2 * df['close'].rolling(window).std())",
+          "feature_name": "ai_enhanced",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\ai_enhanced\\ai_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 367,
+          "line_content": "features['volume_std'] = df['volume'].rolling(window).std()",
+          "feature_name": "ai_enhanced",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\ai_enhanced\\ai_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 376,
+          "line_content": "features['volume_volatility'] = df['volume'].pct_change().rolling(window).std()",
+          "feature_name": "ai_enhanced",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\ai_enhanced\\ai_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 425,
+          "line_content": "historical_volatility = historical_returns.rolling(window).std()",
+          "feature_name": "ai_enhanced",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\ai_enhanced\\ai_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.max\\(\\)",
+          "line_number": 399,
+          "line_content": "features['resistance_level'] = df['high'].rolling(window).max()",
+          "feature_name": "ai_enhanced",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\ai_enhanced\\ai_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.min\\(\\)",
+          "line_number": 398,
+          "line_content": "features['support_level'] = df['low'].rolling(window).min()",
+          "feature_name": "ai_enhanced",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\ai_enhanced\\ai_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_time",
+          "pattern": "\\.shift\\(.*\\)",
+          "line_number": 303,
+          "line_content": "features['momentum'] = df['close'] - df['close'].shift(1)",
+          "feature_name": "ai_enhanced",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\ai_enhanced\\ai_features.py",
+          "severity": "LOW"
+        },
+        {
+          "type": "future_time",
+          "pattern": "\\.shift\\(.*\\)",
+          "line_number": 551,
+          "line_content": "high_close = np.abs(df['high'] - df['close'].shift(1))",
+          "feature_name": "ai_enhanced",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\ai_enhanced\\ai_features.py",
+          "severity": "LOW"
+        },
+        {
+          "type": "future_time",
+          "pattern": "\\.shift\\(.*\\)",
+          "line_number": 552,
+          "line_content": "low_close = np.abs(df['low'] - df['close'].shift(1))",
+          "feature_name": "ai_enhanced",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\ai_enhanced\\ai_features.py",
+          "severity": "LOW"
+        }
+      ],
+      "quantum": [
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 175,
+          "line_content": "price_rolling = df['close'].rolling(window).mean()",
+          "feature_name": "quantum",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\quantum\\quantum_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 176,
+          "line_content": "volume_rolling = df['volume'].rolling(window).mean()",
+          "feature_name": "quantum",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\quantum\\quantum_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 198,
+          "line_content": "volume_mean = df['volume'].rolling(window).mean()",
+          "feature_name": "quantum",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\quantum\\quantum_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 221,
+          "line_content": "short_ma = df['close'].rolling(window // 2).mean()",
+          "feature_name": "quantum",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\quantum\\quantum_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 222,
+          "line_content": "long_ma = df['close'].rolling(window).mean()",
+          "feature_name": "quantum",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\quantum\\quantum_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 369,
+          "line_content": "price_series = df['close'].rolling(window).mean()",
+          "feature_name": "quantum",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\quantum\\quantum_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 370,
+          "line_content": "volume_series = df['volume'].rolling(window).mean()",
+          "feature_name": "quantum",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\quantum\\quantum_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 438,
+          "line_content": "short_price = df['close'].rolling(window // 2).mean()",
+          "feature_name": "quantum",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\quantum\\quantum_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 439,
+          "line_content": "long_price = df['close'].rolling(window).mean()",
+          "feature_name": "quantum",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\quantum\\quantum_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 498,
+          "line_content": "price_oscillation = df['close'] - df['close'].rolling(window).mean()",
+          "feature_name": "quantum",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\quantum\\quantum_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 515,
+          "line_content": "price_oscillation = df['close'] - df['close'].rolling(window).mean()",
+          "feature_name": "quantum",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\quantum\\quantum_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.mean\\(\\)",
+          "line_number": 533,
+          "line_content": "frequency = np.abs(price_change).rolling(window).mean() / df['close']",
+          "feature_name": "quantum",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\quantum\\quantum_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 241,
+          "line_content": "price_std = df['close'].rolling(window).std()",
+          "feature_name": "quantum",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\quantum\\quantum_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 242,
+          "line_content": "volume_std = df['volume'].rolling(window).std()",
+          "feature_name": "quantum",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\quantum\\quantum_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 350,
+          "line_content": "volatility = returns.rolling(window).std()",
+          "feature_name": "quantum",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\quantum\\quantum_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 458,
+          "line_content": "price_std = df['close'].rolling(window).std()",
+          "feature_name": "quantum",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\quantum\\quantum_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 459,
+          "line_content": "volume_std = df['volume'].rolling(window).std()",
+          "feature_name": "quantum",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\quantum\\quantum_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 549,
+          "line_content": "price_freq = df['close'].pct_change().rolling(window).std()",
+          "feature_name": "quantum",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\quantum\\quantum_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 550,
+          "line_content": "volume_freq = df['volume'].pct_change().rolling(window).std()",
+          "feature_name": "quantum",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\quantum\\quantum_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.std\\(\\)",
+          "line_number": 570,
+          "line_content": "decay_rate = np.exp(-np.abs(momentum) / momentum.rolling(window).std())",
+          "feature_name": "quantum",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\quantum\\quantum_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.max\\(\\)",
+          "line_number": 197,
+          "line_content": "price_max = df['close'].rolling(window).max().shift(1)",
+          "feature_name": "quantum",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\quantum\\quantum_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.max\\(\\)",
+          "line_number": 620,
+          "line_content": "excited_state = df['close'].rolling(window).max()",
+          "feature_name": "quantum",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\quantum\\quantum_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.max\\(\\)",
+          "line_number": 638,
+          "line_content": "excited_state = df['close'].rolling(window).max()",
+          "feature_name": "quantum",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\quantum\\quantum_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.min\\(\\)",
+          "line_number": 586,
+          "line_content": "ground_state = df['close'].rolling(window).min()",
+          "feature_name": "quantum",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\quantum\\quantum_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.min\\(\\)",
+          "line_number": 603,
+          "line_content": "ground_state = df['close'].rolling(window).min()",
+          "feature_name": "quantum",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\quantum\\quantum_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_aggregation",
+          "pattern": "\\.rolling\\(.*\\)\\.min\\(\\)",
+          "line_number": 637,
+          "line_content": "ground_state = df['close'].rolling(window).min()",
+          "feature_name": "quantum",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\quantum\\quantum_features.py",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "future_time",
+          "pattern": "\\.shift\\(.*\\)",
+          "line_number": 197,
+          "line_content": "price_max = df['close'].rolling(window).max().shift(1)",
+          "feature_name": "quantum",
+          "file_path": "C:\\Users\\dyars\\Desktop\\cursor_ai_test_bot\\project_hyperion\\features\\quantum\\quantum_features.py",
+          "severity": "MEDIUM"
+        }
+      ]
+    }
+  },
+  "dynamic_testing": {
+    "features_tested": 11,
+    "features_with_issues": 7,
+    "test_results": {
+      "psychology": {
+        "has_issues": false,
+        "issues_found": [],
+        "feature_count": 0,
+        "execution_time": 0.0,
+        "memory_usage": 0
+      },
+      "external_alpha": {
+        "has_issues": true,
+        "issues_found": [
+          {
+            "type": "nan_values",
+            "count": "152",
+            "description": "NaN values detected in features"
+          },
+          {
+            "type": "constant_features",
+            "features": [
+              "symbol"
+            ],
+            "description": "Constant features detected"
+          }
+        ],
+        "feature_count": 31,
+        "execution_time": 0.292026,
+        "memory_usage": 0
+      },
+      "microstructure": {
+        "has_issues": false,
+        "issues_found": [],
+        "feature_count": 0,
+        "execution_time": 0.0,
+        "memory_usage": 0
+      },
+      "patterns": {
+        "has_issues": true,
+        "issues_found": [
+          {
+            "type": "nan_values",
+            "count": "150",
+            "description": "NaN values detected in features"
+          },
+          {
+            "type": "constant_features",
+            "features": [
+              "symbol",
+              "pattern_double_top",
+              "pattern_double_bottom",
+              "pattern_breakout_up",
+              "pattern_breakout_down"
+            ],
+            "description": "Constant features detected"
+          }
+        ],
+        "feature_count": 51,
+        "execution_time": 93.673319,
+        "memory_usage": 0
+      },
+      "regime_detection": {
+        "has_issues": true,
+        "issues_found": [
+          {
+            "type": "nan_values",
+            "count": "314",
+            "description": "NaN values detected in features"
+          },
+          {
+            "type": "constant_features",
+            "features": [
+              "symbol",
+              "regime_uptrend",
+              "regime_downtrend",
+              "regime_strong"
+            ],
+            "description": "Constant features detected"
+          }
+        ],
+        "feature_count": 28,
+        "execution_time": 0.229499,
+        "memory_usage": 0
+      },
+      "volatility_momentum": {
+        "has_issues": true,
+        "issues_found": [
+          {
+            "type": "nan_values",
+            "count": "714",
+            "description": "NaN values detected in features"
+          },
+          {
+            "type": "constant_features",
+            "features": [
+              "symbol"
+            ],
+            "description": "Constant features detected"
+          }
+        ],
+        "feature_count": 39,
+        "execution_time": 0.376733,
+        "memory_usage": 0
+      },
+      "adaptive_risk": {
+        "has_issues": true,
+        "issues_found": [
+          {
+            "type": "nan_values",
+            "count": "474",
+            "description": "NaN values detected in features"
+          },
+          {
+            "type": "constant_features",
+            "features": [
+              "symbol"
+            ],
+            "description": "Constant features detected"
+          }
+        ],
+        "feature_count": 34,
+        "execution_time": 0.518571,
+        "memory_usage": 0
+      },
+      "profitability": {
+        "has_issues": true,
+        "issues_found": [
+          {
+            "type": "nan_values",
+            "count": "2890340",
+            "description": "NaN values detected in features"
+          },
+          {
+            "type": "constant_features",
+            "features": [
+              "symbol",
+              "profit_factor",
+              "profit_factor_momentum",
+              "profit_factor_stability"
+            ],
+            "description": "Constant features detected"
+          }
+        ],
+        "feature_count": 51,
+        "execution_time": 35.517972,
+        "memory_usage": 0
+      },
+      "meta_learning": {
+        "has_issues": true,
+        "issues_found": [
+          {
+            "type": "nan_values",
+            "count": "200",
+            "description": "NaN values detected in features"
+          },
+          {
+            "type": "constant_features",
+            "features": [
+              "symbol"
+            ],
+            "description": "Constant features detected"
+          }
+        ],
+        "feature_count": 31,
+        "execution_time": 0.278027,
+        "memory_usage": 0
+      },
+      "ai_enhanced": {
+        "has_issues": false,
+        "issues_found": [],
+        "feature_count": 0,
+        "execution_time": 0.000998,
+        "memory_usage": 0
+      },
+      "quantum": {
+        "has_issues": false,
+        "issues_found": [],
+        "feature_count": 0,
+        "execution_time": 0.0,
+        "memory_usage": 0
+      }
+    }
+  },
+  "performance_validation": {
+    "train_r2": 0.8013293232454409,
+    "val_r2": 0.8013293232454409,
+    "realistic_performance": false,
+    "performance_warning": true,
+    "overfitting_detected": false
+  },
+  "recommendations": [
+    "\ud83d\udd0d Found 207 potential data leakage issues. Review and fix these before production use.",
+    "\ud83e\uddea 7 feature generators have issues. Fix execution errors and data quality problems.",
+    "\u26a0\ufe0f Model performance too high (R\u00b2 > 0.5). This may indicate data leakage. Review feature generation logic.",
+    "\u26a0\ufe0f Performance not realistic. Expected R\u00b2 < 0.1 for crypto prediction. Check for data leakage in features."
+  ],
+  "risk_assessment": "MEDIUM"
+}

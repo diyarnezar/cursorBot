@@ -1,0 +1,52 @@
+{
+  "trading_objectives": {
+    "primary_objective": "maximize_sharpe_ratio",
+    "secondary_objective": "minimize_max_drawdown",
+    "constraints": {
+      "max_position_size": 0.1,
+      "max_daily_loss": 0.05,
+      "min_win_rate": 0.55,
+      "min_profit_factor": 1.5
+    }
+  },
+  "risk_management": {
+    "position_sizing": {
+      "kelly_criterion": true,
+      "volatility_adjusted": true,
+      "correlation_adjusted": true,
+      "max_risk_per_trade": 0.02
+    },
+    "stop_loss": {
+      "atr_based": true,
+      "volatility_based": true,
+      "dynamic_adjustment": true
+    },
+    "take_profit": {
+      "risk_reward_ratio": 2.0,
+      "trailing_stop": true,
+      "partial_profit_taking": true
+    }
+  },
+  "market_regime_detection": {
+    "volatility_regimes": [
+      "low",
+      "medium",
+      "high"
+    ],
+    "trend_regimes": [
+      "bullish",
+      "sideways",
+      "bearish"
+    ],
+    "regime_specific_weights": true,
+    "regime_transition_detection": true
+  },
+  "expected_improvements": {
+    "profitability": 35.0,
+    "risk_reduction": 40.0,
+    "sharpe_ratio": 25.0,
+    "max_drawdown": 30.0,
+    "win_rate": 15.0,
+    "profit_factor": 20.0
+  }
+}

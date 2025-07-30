@@ -1,0 +1,24 @@
+2025-07-28 19:23:34,837 - hyperion.hyperion.month_trainer - INFO - __init__:83 - Month Trainer initialized with maximum intelligence features
+2025-07-28 19:23:34,838 - hyperion.hyperion.month_trainer - INFO - train:95 - 🚀 Starting Advanced Month Training with Maximum Intelligence
+2025-07-28 19:23:34,838 - hyperion.hyperion.month_trainer - INFO - train:102 - ✅ Using pre-collected data: 44000 points
+2025-07-28 19:23:34,838 - hyperion.hyperion.month_trainer - INFO - _generate_maximum_features:161 - 🧠 Generating maximum intelligence features...
+2025-07-28 19:24:05,532 - hyperion.hyperion.month_trainer - INFO - _generate_maximum_features:182 - ✅ Generated 409 maximum intelligence features
+2025-07-28 19:24:05,574 - hyperion.hyperion.month_trainer - INFO - _train_advanced_models:311 - 🤖 Training advanced models with maximum intelligence...
+2025-07-28 19:24:05,589 - hyperion.hyperion.month_trainer - INFO - _train_advanced_models:319 - Aligning features and data indices
+2025-07-28 19:24:05,589 - hyperion.hyperion.month_trainer - INFO - _train_advanced_models:342 - Removing 1 NaN values from returns target
+2025-07-28 19:24:05,605 - hyperion.hyperion.month_trainer - INFO - _train_advanced_models:342 - Removing 1 NaN values from volatility target
+2025-07-28 19:24:05,605 - hyperion.hyperion.month_trainer - INFO - _train_advanced_models:352 - Truncating features to 1620 samples for alignment
+2025-07-28 19:24:05,605 - hyperion.hyperion.month_trainer - INFO - _train_advanced_models:356 - Final data shapes - Features: (1620, 407)
+2025-07-28 19:24:05,605 - hyperion.hyperion.month_trainer - INFO - _train_advanced_models:358 - Target close: 1620 samples
+2025-07-28 19:24:05,605 - hyperion.hyperion.month_trainer - INFO - _train_advanced_models:358 - Target returns: 1620 samples
+2025-07-28 19:24:05,605 - hyperion.hyperion.month_trainer - INFO - _train_advanced_models:358 - Target volatility: 1620 samples
+2025-07-28 19:28:03,418 - hyperion.hyperion.month_trainer - INFO - _train_advanced_models:363 - ✅ Trained 40 advanced models
+2025-07-28 19:28:03,418 - hyperion.hyperion.month_trainer - INFO - _apply_reinforcement_learning:372 - 🧠 Applying reinforcement learning optimization...
+2025-07-28 19:28:03,444 - hyperion.hyperion.month_trainer - INFO - _apply_reinforcement_learning:398 - ✅ Reinforcement learning optimization completed
+2025-07-28 19:28:03,445 - hyperion.hyperion.month_trainer - INFO - _apply_self_improvement:407 - 🔄 Applying self-improvement systems...
+2025-07-28 19:29:08,137 - hyperion.hyperion.month_trainer - INFO - _apply_self_improvement:416 - ✅ Self-improvement systems completed
+2025-07-28 19:29:08,137 - hyperion.hyperion.month_trainer - INFO - _create_advanced_ensemble:423 - 🎯 Creating advanced ensemble with meta-learning...
+2025-07-28 19:29:08,138 - hyperion.hyperion.month_trainer - INFO - _create_advanced_ensemble:429 - ✅ Advanced ensemble created
+2025-07-28 19:29:08,138 - hyperion.hyperion.month_trainer - INFO - _validate_and_optimize:439 - 📊 Validating and optimizing final results...
+2025-07-29 09:47:54,871 - hyperion.hyperion.month_trainer - INFO - _validate_and_optimize:471 - ✅ Validation and optimization completed
+2025-07-29 09:47:54,873 - hyperion.hyperion.month_trainer - INFO - train:122 - 🎉 Advanced Month Training completed successfully!

@@ -1,0 +1,36 @@
+2025-07-19 23:07:36,722 - INFO - ============================================================
+2025-07-19 23:07:36,722 - INFO - 
+============================================================
+2025-07-19 23:07:36,724 - INFO - Test 1: Binance Rate Limiter
+2025-07-19 23:07:36,726 - INFO - Test 2: Global API Monitor
+2025-07-19 23:07:36,728 - INFO - Test 3: Training API Monitor
+2025-07-19 23:07:36,730 - INFO - Test 4: Kline Fetcher
+2025-07-19 23:07:36,734 - INFO - 
+============================================================
+2025-07-19 23:07:36,736 - INFO - Testing mode: Ultra-Short Test (30 minutes)
+2025-07-19 23:07:36,738 - INFO - Testing mode: Ultra-Fast Testing (2 hours)
+2025-07-19 23:07:36,740 - INFO - Testing mode: Quick Training (1 day)
+2025-07-19 23:07:36,743 - INFO - Testing mode: Fast Test (15 minutes)
+2025-07-19 23:07:36,746 - INFO - 
+============================================================
+2025-07-19 23:07:36,762 - INFO -    Total calls: 66
+2025-07-19 23:07:36,762 - INFO -    Total weight: 132
+2025-07-19 23:07:36,762 - INFO -    Weight usage: 11.0%
+2025-07-19 23:07:36,762 - INFO -    Sequential time: 10s (0.2min)
+2025-07-19 23:07:36,765 - INFO - Testing multi-pair data collection...
+2025-07-19 23:07:36,768 - INFO - 
+============================================================
+2025-07-19 23:07:36,770 - INFO - Initial weight available: 1200
+2025-07-19 23:07:36,770 - INFO - Testing rapid request handling...
+2025-07-19 23:07:37,775 - INFO - Final weight available: 1180
+2025-07-19 23:07:37,775 - INFO - Weight used: 20
+2025-07-19 23:07:37,778 - INFO - 
+============================================================
+2025-07-19 23:07:37,793 - INFO - 
+============================================================
+2025-07-19 23:07:37,795 - INFO - ============================================================
+2025-07-19 23:07:37,803 - INFO - 
+Overall: 2/5 tests passed
+2025-07-19 23:07:37,810 - INFO -    1. Check if all rate limiting modules are installed
+2025-07-19 23:07:37,810 - INFO -    2. Run integrate_rate_limiting.py to update training script
+2025-07-19 23:07:37,810 - INFO -    3. Verify API keys are configured correctly

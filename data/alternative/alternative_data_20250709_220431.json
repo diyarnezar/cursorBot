@@ -1,0 +1,22 @@
+{
+  "eth_market_cap": 327883104560.0054,
+  "eth_24h_volume": 20189553842.45563,
+  "eth_24h_change": 3.7467228909392767,
+  "eth_price": 2717.84,
+  "defi_pulse_index": 0,
+  "defi_24h_change": 0,
+  "reddit_sentiment": 0.0031966259820426484,
+  "reddit_sentiment_std": 0.01817031039233812,
+  "reddit_engagement": 81,
+  "twitter_sentiment": -0.02692622237677424,
+  "twitter_volume": 2404,
+  "dxy_price": 97.56199645996094,
+  "dxy_change": 0.05332204142281515,
+  "vix_price": 15.819999694824219,
+  "vix_change": -5.889350401967213,
+  "gold_price": 3320.60009765625,
+  "gold_change": 0.4112518190580587,
+  "treasury_10y": 4.340000152587891,
+  "treasury_10y_change": -1.6987499414078913,
+  "timestamp": "2025-07-09T22:04:31.667720"
+}

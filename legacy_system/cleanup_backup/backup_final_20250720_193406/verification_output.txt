@@ -1,0 +1,156 @@
+2025-07-09 22:15:30.226534: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-07-09 22:15:31.327654: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+INFO:__main__:Starting comprehensive checklist verification
+INFO:__main__:Starting comprehensive feature verification
+INFO:__main__:Verifying Data & Features (A)
+INFO:root:\U0001f680 Alternative Data Collector initialized with free sources
+ERROR:root:Error getting gas metrics: invalid literal for int() with base 10: '4.255132013'
+ERROR:root:Error getting news sentiment: Expecting value: line 1 column 1 (char 0)
+INFO:root:Initialized standard scalers for feature normalization.
+INFO:modules.crypto_features:\U0001f680 Crypto Features initialized for ETH/FDUSD trading
+INFO:root:\u2705 Crypto features initialized for ETH/FDUSD
+INFO:root:Enhanced Feature Engineer initialized with advanced capabilities.
+INFO:modules.real_time_pipeline:\U0001f680 Real-time pipeline initialized
+INFO:root:Initialized standard scalers for feature normalization.
+INFO:modules.crypto_features:\U0001f680 Crypto Features initialized for ETH/FDUSD trading
+INFO:root:\u2705 Crypto features initialized for ETH/FDUSD
+INFO:root:Enhanced Feature Engineer initialized with advanced capabilities.
+C:\Users\dyars\Desktop\cursor_ai_test_bot\project_hyperion\modules\feature_engineering.py:339: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '102.0041623309053' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  kama.iloc[i] = kama.iloc[i-1] + smoothing_constant.iloc[i] * (prices.iloc[i] - kama.iloc[i-1])
+C:\Users\dyars\Desktop\cursor_ai_test_bot\project_hyperion\modules\feature_engineering.py:339: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '102.0041623309053' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  kama.iloc[i] = kama.iloc[i-1] + smoothing_constant.iloc[i] * (prices.iloc[i] - kama.iloc[i-1])
+C:\Users\dyars\Desktop\cursor_ai_test_bot\project_hyperion\modules\feature_engineering.py:339: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '102.0041623309053' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  kama.iloc[i] = kama.iloc[i-1] + smoothing_constant.iloc[i] * (prices.iloc[i] - kama.iloc[i-1])
+C:\Users\dyars\Desktop\cursor_ai_test_bot\project_hyperion\modules\feature_engineering.py:296: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  df = df.fillna(method='ffill').fillna(method='bfill')
+INFO:modules.crypto_features:\U0001f680 Crypto Features initialized for ETH/FDUSD trading
+INFO:__main__:Verifying Model Training & Learning (B)
+INFO:root:\U0001f680 Advanced Ensemble System initialized
+INFO:__main__:Verifying Autonomy & Self-Improvement (C)
+INFO:root:\U0001f3ae Self-play environment initialized
+INFO:root:Initialized standard scalers for feature normalization.
+INFO:modules.crypto_features:\U0001f680 Crypto Features initialized for ETH/FDUSD trading
+INFO:root:\u2705 Crypto features initialized for ETH/FDUSD
+INFO:root:Enhanced Feature Engineer initialized with advanced capabilities.
+INFO:root:\U0001f680 Advanced Ensemble System initialized
+INFO:root:Enhanced Risk Manager initialized with maximum intelligence
+INFO:root:\U0001f4ca Automated Backtester initialized
+INFO:root:\U0001f4c8 Performance Monitor initialized
+INFO:root:Initialized standard scalers for feature normalization.
+INFO:modules.crypto_features:\U0001f680 Crypto Features initialized for ETH/FDUSD trading
+INFO:root:\u2705 Crypto features initialized for ETH/FDUSD
+INFO:root:Enhanced Feature Engineer initialized with advanced capabilities.
+INFO:root:\U0001f680 Advanced Ensemble System initialized
+INFO:root:Enhanced Risk Manager initialized with maximum intelligence
+INFO:root:\U0001f4ca Automated Backtester initialized
+INFO:root:\U0001f4c8 Performance Monitor initialized
+INFO:root:\U0001f680 Advanced Ensemble System initialized
+INFO:root:Initialized standard scalers for feature normalization.
+INFO:modules.crypto_features:\U0001f680 Crypto Features initialized for ETH/FDUSD trading
+INFO:root:\u2705 Crypto features initialized for ETH/FDUSD
+INFO:root:Enhanced Feature Engineer initialized with advanced capabilities.
+INFO:root:\U0001f680 Alternative Data Collector initialized with free sources
+INFO:root:\U0001f4c5 Scheduled tasks configured
+INFO:root:\U0001f916 Autonomous System initialized
+INFO:__main__:Verifying Intelligence & Adaptivity (D)
+INFO:root:\U0001f3af Market Regime Detector initialized
+ERROR:root:Error initializing explainers: Found array with 0 feature(s) (shape=(100, 0)) while a minimum of 1 is required by StandardScaler.
+INFO:root:\U0001f50d Advanced Explainability System initialized
+INFO:root:\U0001f6a8 Anomaly Detector initialized
+INFO:root:\U0001f3af Market Regime Detector initialized
+ERROR:root:Error initializing explainers: Found array with 0 feature(s) (shape=(100, 0)) while a minimum of 1 is required by StandardScaler.
+INFO:root:\U0001f50d Advanced Explainability System initialized
+INFO:root:\U0001f6a8 Anomaly Detector initialized
+INFO:root:\U0001f9e0 Intelligence Enhancer initialized
+INFO:__main__:Verifying Robustness & Safety (E)
+INFO:root:\U0001f6e1\ufe0f Dynamic Risk Manager initialized
+INFO:root:\U0001f512 API Limit Handler initialized
+INFO:root:\U0001f504 Failover System initialized
+INFO:root:\U0001f6e1\ufe0f Dynamic Risk Manager initialized
+INFO:root:\U0001f512 API Limit Handler initialized
+INFO:root:\U0001f504 Failover System initialized
+INFO:root:\U0001f6e1\ufe0f Robustness Manager initialized
+WARNING:root:\u26a0\ufe0f Medium severity error: test_error
+INFO:__main__:Verifying Continuous Enhancement (F)
+INFO:root:Initialized standard scalers for feature normalization.
+INFO:modules.crypto_features:\U0001f680 Crypto Features initialized for ETH/FDUSD trading
+INFO:root:\u2705 Crypto features initialized for ETH/FDUSD
+INFO:root:Enhanced Feature Engineer initialized with advanced capabilities.
+INFO:root:\U0001f680 Advanced Ensemble System initialized
+INFO:root:Enhanced Risk Manager initialized with maximum intelligence
+INFO:root:\U0001f4ca Automated Backtester initialized
+INFO:root:\U0001f4c8 Performance Monitor initialized
+INFO:root:\U0001f680 Advanced Ensemble System initialized
+INFO:root:Initialized standard scalers for feature normalization.
+INFO:modules.crypto_features:\U0001f680 Crypto Features initialized for ETH/FDUSD trading
+INFO:root:\u2705 Crypto features initialized for ETH/FDUSD
+INFO:root:Enhanced Feature Engineer initialized with advanced capabilities.
+INFO:root:\U0001f680 Alternative Data Collector initialized with free sources
+INFO:root:\U0001f4c5 Scheduled tasks configured
+INFO:root:\U0001f916 Autonomous System initialized
+INFO:__main__:Generating verification report
+INFO:__main__:Verification completed and report saved
+
+================================================================================
+ULTIMATE CRYPTO TRADING BOT - COMPREHENSIVE VERIFICATION REPORT
+================================================================================
+
+OVERALL STATUS:
+   Total Features: 24
+   Implemented: 24
+   Implementation: 100.0%
+   Status: COMPLETE
+
+CATEGORY DETAILS:
+
+   A_Data_Features:
+     Implemented: 4/4 (100.0%)
+       [OK] alternative_data
+       [OK] real_time_pipeline
+       [OK] feature_store
+       [OK] free_data_sources
+
+   B_Model_Training:
+     Implemented: 4/4 (100.0%)
+       [OK] advanced_ensemble
+       [OK] meta_learning
+       [OK] online_learning
+       [OK] hyperparameter_optimization
+
+   C_Autonomy_SelfImprovement:
+     Implemented: 4/4 (100.0%)
+       [OK] self_play_simulation
+       [OK] automated_backtesting
+       [OK] performance_monitoring
+       [OK] autonomous_retraining
+
+   D_Intelligence_Adaptivity:
+     Implemented: 4/4 (100.0%)
+       [OK] market_regime_detection
+       [OK] advanced_explainability
+       [OK] anomaly_detection
+       [OK] dynamic_feature_adaptation
+
+   E_Robustness_Safety:
+     Implemented: 4/4 (100.0%)
+       [OK] dynamic_risk_management
+       [OK] api_limit_handling
+       [OK] failover_system
+       [OK] comprehensive_error_handling
+
+   F_Continuous_Enhancement:
+     Implemented: 4/4 (100.0%)
+       [OK] autonomous_research
+       [OK] community_signals
+       [OK] strategy_discovery
+       [OK] performance_optimization
+
+RECOMMENDATIONS:
+   All checklist items implemented successfully!
+   Your bot is ready for advanced autonomous trading!
+   Consider running a full backtest to validate performance
+   Monitor logs and performance metrics during operation
+
+================================================================================
+VERIFICATION COMPLETE
+================================================================================

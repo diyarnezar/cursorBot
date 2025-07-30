@@ -1,0 +1,85 @@
+{
+  "training_info": {
+    "training_date": "2025-07-13T19:31:10.621538",
+    "training_duration": "0:19:02.221902",
+    "total_features": 108,
+    "total_models": 72
+  },
+  "feature_quality": {
+    "total_features": 181,
+    "dropped_features": 3,
+    "high_nan_features": 0,
+    "high_zero_features": 13,
+    "quality_score": 0.9116022099447514
+  },
+  "model_performance": {
+    "average_score": 35.76299106315486,
+    "best_score": 99.9997824514987,
+    "worst_score": 0.0,
+    "score_variance": 1321.8701335223932,
+    "model_count": 64,
+    "by_type": {
+      "lightgbm": {
+        "average": 55.35380173767688,
+        "count": 8,
+        "best": 78.01799481661172,
+        "worst": 16.79912605633974
+      },
+      "xgboost": {
+        "average": 54.46964596428498,
+        "count": 8,
+        "best": 93.13922107525767,
+        "worst": 16.79912605639678
+      },
+      "random": {
+        "average": 57.573094685561955,
+        "count": 8,
+        "best": 82.11798771467502,
+        "worst": 29.41667558600171
+      },
+      "catboost": {
+        "average": 99.80810557146323,
+        "count": 8,
+        "best": 99.9997824514987,
+        "worst": 98.78266144598265
+      },
+      "svm": {
+        "average": 6.060295047643299,
+        "count": 8,
+        "best": 9.41704318302376,
+        "worst": 0.0
+      },
+      "neural": {
+        "average": 12.838985498608505,
+        "count": 8,
+        "best": 16.601648040419736,
+        "worst": 10.6549633504388
+      },
+      "lstm": {
+        "average": 0.0,
+        "count": 8,
+        "best": 0.0,
+        "worst": 0.0
+      },
+      "transformer": {
+        "average": 0.0,
+        "count": 8,
+        "best": 0.0,
+        "worst": 0.0
+      }
+    }
+  },
+  "ensemble_analysis": {
+    "total_weight": 1.0,
+    "weight_variance": 0.0,
+    "max_weight": 0.015625,
+    "min_weight": 0.015625,
+    "weight_distribution": "balanced"
+  },
+  "recommendations": [
+    "Improve feature engineering for high-zero features",
+    "Remove redundant features to reduce correlation",
+    "Tune neural network architectures and hyperparameters",
+    "Neural models underperforming compared to tree models"
+  ]
+}

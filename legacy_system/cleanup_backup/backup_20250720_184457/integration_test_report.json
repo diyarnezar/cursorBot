@@ -1,0 +1,49 @@
+{
+  "test_timestamp": "2025-07-18T03:51:48.931583",
+  "integration_testing": {
+    "training_system": {
+      "data_collection": true,
+      "feature_engineering": true,
+      "model_training": true,
+      "ensemble_optimization": true,
+      "model_saving": true,
+      "overall_status": true
+    },
+    "trading_system": {
+      "portfolio_engine": false,
+      "execution_engine": true,
+      "risk_manager": true,
+      "prediction_engine": true,
+      "paper_trading": false,
+      "overall_status": false
+    },
+    "autonomous_system": {
+      "strategy_discovery": true,
+      "reinforcement_learning": true,
+      "model_promotion": true,
+      "autonomous_optimization": false,
+      "overall_status": false
+    },
+    "data_integration": {
+      "historical_data": true,
+      "alternative_data": true,
+      "real_time_data": true,
+      "data_quality": true,
+      "overall_status": true
+    },
+    "full_system_integration": {
+      "training_to_trading": false,
+      "trading_to_autonomous": false,
+      "data_to_all_systems": true,
+      "end_to_end_workflow": false,
+      "overall_status": false
+    }
+  },
+  "overall_integration_status": "POORLY_INTEGRATED",
+  "integration_percentage": 40.0,
+  "recommendations": [
+    "Fix trading system integration",
+    "Fix autonomous system integration",
+    "Fix full system integration"
+  ]
+}

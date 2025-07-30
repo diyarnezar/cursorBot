@@ -1,0 +1,286 @@
+2025-07-28 19:23:34,834 - hyperion.hyperion.models.enhanced - INFO - __init__:99 - Enhanced Model Trainer initialized with 10X intelligence features
+2025-07-28 19:24:05,605 - hyperion.hyperion.models.enhanced - INFO - train_enhanced_models:103 - Starting enhanced model training with 10X intelligence
+2025-07-28 19:24:05,605 - hyperion.hyperion.models.enhanced - INFO - _prepare_enhanced_data:188 - Preparing enhanced data: 1620 samples, 407 features
+2025-07-28 19:24:05,605 - hyperion.hyperion.models.enhanced - INFO - _prepare_enhanced_data:223 - Removing 232 rows with NaN features
+2025-07-28 19:24:05,632 - hyperion.hyperion.models.enhanced - INFO - _create_comprehensive_targets:379 - Created target 1m_returns: 1388 samples
+2025-07-28 19:24:05,653 - hyperion.hyperion.models.enhanced - INFO - _create_comprehensive_targets:379 - Created target 1m_momentum: 1388 samples
+2025-07-28 19:24:05,653 - hyperion.hyperion.models.enhanced - INFO - _create_comprehensive_targets:379 - Created target 1m_trend: 1388 samples
+2025-07-28 19:24:05,668 - hyperion.hyperion.models.enhanced - INFO - _create_comprehensive_targets:379 - Created target 5m_returns: 1388 samples
+2025-07-28 19:24:05,668 - hyperion.hyperion.models.enhanced - INFO - _create_comprehensive_targets:379 - Created target 5m_volatility: 1388 samples
+2025-07-28 19:24:05,668 - hyperion.hyperion.models.enhanced - INFO - _create_comprehensive_targets:379 - Created target 5m_momentum: 1388 samples
+2025-07-28 19:24:05,668 - hyperion.hyperion.models.enhanced - INFO - _create_comprehensive_targets:379 - Created target 5m_trend: 1388 samples
+2025-07-28 19:24:05,668 - hyperion.hyperion.models.enhanced - INFO - _create_comprehensive_targets:379 - Created target 5m_reversal: 1388 samples
+2025-07-28 19:24:05,668 - hyperion.hyperion.models.enhanced - INFO - _create_comprehensive_targets:379 - Created target 15m_returns: 1388 samples
+2025-07-28 19:24:05,668 - hyperion.hyperion.models.enhanced - INFO - _create_comprehensive_targets:379 - Created target 15m_volatility: 1388 samples
+2025-07-28 19:24:05,668 - hyperion.hyperion.models.enhanced - INFO - _create_comprehensive_targets:379 - Created target 15m_momentum: 1388 samples
+2025-07-28 19:24:05,668 - hyperion.hyperion.models.enhanced - INFO - _create_comprehensive_targets:379 - Created target 15m_trend: 1388 samples
+2025-07-28 19:24:05,668 - hyperion.hyperion.models.enhanced - INFO - _create_comprehensive_targets:379 - Created target 15m_reversal: 1388 samples
+2025-07-28 19:24:05,668 - hyperion.hyperion.models.enhanced - INFO - _create_comprehensive_targets:379 - Created target 30m_returns: 1388 samples
+2025-07-28 19:24:05,668 - hyperion.hyperion.models.enhanced - INFO - _create_comprehensive_targets:379 - Created target 30m_volatility: 1388 samples
+2025-07-28 19:24:05,668 - hyperion.hyperion.models.enhanced - INFO - _create_comprehensive_targets:379 - Created target 30m_momentum: 1388 samples
+2025-07-28 19:24:05,668 - hyperion.hyperion.models.enhanced - INFO - _create_comprehensive_targets:379 - Created target 30m_trend: 1388 samples
+2025-07-28 19:24:05,668 - hyperion.hyperion.models.enhanced - INFO - _create_comprehensive_targets:379 - Created target 30m_reversal: 1388 samples
+2025-07-28 19:24:05,668 - hyperion.hyperion.models.enhanced - INFO - _create_comprehensive_targets:379 - Created target 1h_returns: 1388 samples
+2025-07-28 19:24:05,668 - hyperion.hyperion.models.enhanced - INFO - _create_comprehensive_targets:379 - Created target 1h_volatility: 1388 samples
+2025-07-28 19:24:05,668 - hyperion.hyperion.models.enhanced - INFO - _create_comprehensive_targets:379 - Created target 1h_momentum: 1388 samples
+2025-07-28 19:24:05,668 - hyperion.hyperion.models.enhanced - INFO - _create_comprehensive_targets:379 - Created target 1h_trend: 1388 samples
+2025-07-28 19:24:05,668 - hyperion.hyperion.models.enhanced - INFO - _create_comprehensive_targets:379 - Created target 1h_reversal: 1388 samples
+2025-07-28 19:24:05,684 - hyperion.hyperion.models.enhanced - INFO - _create_comprehensive_targets:379 - Created target 4h_returns: 1388 samples
+2025-07-28 19:24:05,684 - hyperion.hyperion.models.enhanced - INFO - _create_comprehensive_targets:379 - Created target 4h_volatility: 1388 samples
+2025-07-28 19:24:05,684 - hyperion.hyperion.models.enhanced - INFO - _create_comprehensive_targets:379 - Created target 4h_momentum: 1388 samples
+2025-07-28 19:24:05,684 - hyperion.hyperion.models.enhanced - INFO - _create_comprehensive_targets:379 - Created target 4h_trend: 1388 samples
+2025-07-28 19:24:05,684 - hyperion.hyperion.models.enhanced - INFO - _create_comprehensive_targets:379 - Created target 4h_reversal: 1388 samples
+2025-07-28 19:24:05,684 - hyperion.hyperion.models.enhanced - INFO - _create_comprehensive_targets:379 - Created target 1d_volatility: 1388 samples
+2025-07-28 19:24:05,684 - hyperion.hyperion.models.enhanced - INFO - _create_comprehensive_targets:379 - Created target 1d_trend: 1388 samples
+2025-07-28 19:24:05,684 - hyperion.hyperion.models.enhanced - INFO - _create_comprehensive_targets:379 - Created target 1d_reversal: 1388 samples
+2025-07-28 19:24:05,684 - hyperion.hyperion.models.enhanced - INFO - _create_comprehensive_targets:386 - Created 34 comprehensive targets
+2025-07-28 19:24:05,684 - hyperion.hyperion.models.enhanced - INFO - _prepare_enhanced_data:288 - Final data shape: (1388, 407)
+2025-07-28 19:24:05,684 - hyperion.hyperion.models.enhanced - INFO - _prepare_enhanced_data:290 - Target 1m_returns: 1388 samples, 1 NaN
+2025-07-28 19:24:05,684 - hyperion.hyperion.models.enhanced - INFO - _prepare_enhanced_data:290 - Target 1m_momentum: 1388 samples, 1 NaN
+2025-07-28 19:24:05,684 - hyperion.hyperion.models.enhanced - INFO - _prepare_enhanced_data:290 - Target 1m_trend: 1388 samples, 0 NaN
+2025-07-28 19:24:05,684 - hyperion.hyperion.models.enhanced - INFO - _prepare_enhanced_data:290 - Target 5m_returns: 1388 samples, 5 NaN
+2025-07-28 19:24:05,684 - hyperion.hyperion.models.enhanced - INFO - _prepare_enhanced_data:290 - Target 5m_volatility: 1388 samples, 1 NaN
+2025-07-28 19:24:05,684 - hyperion.hyperion.models.enhanced - INFO - _prepare_enhanced_data:290 - Target 5m_momentum: 1388 samples, 5 NaN
+2025-07-28 19:24:05,684 - hyperion.hyperion.models.enhanced - INFO - _prepare_enhanced_data:290 - Target 5m_trend: 1388 samples, 0 NaN
+2025-07-28 19:24:05,684 - hyperion.hyperion.models.enhanced - INFO - _prepare_enhanced_data:290 - Target 5m_reversal: 1388 samples, 1 NaN
+2025-07-28 19:24:05,684 - hyperion.hyperion.models.enhanced - INFO - _prepare_enhanced_data:290 - Target 15m_returns: 1388 samples, 15 NaN
+2025-07-28 19:24:05,684 - hyperion.hyperion.models.enhanced - INFO - _prepare_enhanced_data:290 - Target 15m_volatility: 1388 samples, 1 NaN
+2025-07-28 19:24:05,684 - hyperion.hyperion.models.enhanced - INFO - _prepare_enhanced_data:290 - Target 15m_momentum: 1388 samples, 15 NaN
+2025-07-28 19:24:05,684 - hyperion.hyperion.models.enhanced - INFO - _prepare_enhanced_data:290 - Target 15m_trend: 1388 samples, 0 NaN
+2025-07-28 19:24:05,684 - hyperion.hyperion.models.enhanced - INFO - _prepare_enhanced_data:290 - Target 15m_reversal: 1388 samples, 1 NaN
+2025-07-28 19:24:05,684 - hyperion.hyperion.models.enhanced - INFO - _prepare_enhanced_data:290 - Target 30m_returns: 1388 samples, 30 NaN
+2025-07-28 19:24:05,684 - hyperion.hyperion.models.enhanced - INFO - _prepare_enhanced_data:290 - Target 30m_volatility: 1388 samples, 1 NaN
+2025-07-28 19:24:05,684 - hyperion.hyperion.models.enhanced - INFO - _prepare_enhanced_data:290 - Target 30m_momentum: 1388 samples, 30 NaN
+2025-07-28 19:24:05,684 - hyperion.hyperion.models.enhanced - INFO - _prepare_enhanced_data:290 - Target 30m_trend: 1388 samples, 0 NaN
+2025-07-28 19:24:05,684 - hyperion.hyperion.models.enhanced - INFO - _prepare_enhanced_data:290 - Target 30m_reversal: 1388 samples, 1 NaN
+2025-07-28 19:24:05,684 - hyperion.hyperion.models.enhanced - INFO - _prepare_enhanced_data:290 - Target 1h_returns: 1388 samples, 60 NaN
+2025-07-28 19:24:05,684 - hyperion.hyperion.models.enhanced - INFO - _prepare_enhanced_data:290 - Target 1h_volatility: 1388 samples, 1 NaN
+2025-07-28 19:24:05,684 - hyperion.hyperion.models.enhanced - INFO - _prepare_enhanced_data:290 - Target 1h_momentum: 1388 samples, 60 NaN
+2025-07-28 19:24:05,699 - hyperion.hyperion.models.enhanced - INFO - _prepare_enhanced_data:290 - Target 1h_trend: 1388 samples, 0 NaN
+2025-07-28 19:24:05,699 - hyperion.hyperion.models.enhanced - INFO - _prepare_enhanced_data:290 - Target 1h_reversal: 1388 samples, 1 NaN
+2025-07-28 19:24:05,699 - hyperion.hyperion.models.enhanced - INFO - _prepare_enhanced_data:290 - Target 4h_returns: 1388 samples, 240 NaN
+2025-07-28 19:24:05,699 - hyperion.hyperion.models.enhanced - INFO - _prepare_enhanced_data:290 - Target 4h_volatility: 1388 samples, 1 NaN
+2025-07-28 19:24:05,699 - hyperion.hyperion.models.enhanced - INFO - _prepare_enhanced_data:290 - Target 4h_momentum: 1388 samples, 240 NaN
+2025-07-28 19:24:05,699 - hyperion.hyperion.models.enhanced - INFO - _prepare_enhanced_data:290 - Target 4h_trend: 1388 samples, 0 NaN
+2025-07-28 19:24:05,699 - hyperion.hyperion.models.enhanced - INFO - _prepare_enhanced_data:290 - Target 4h_reversal: 1388 samples, 1 NaN
+2025-07-28 19:24:05,699 - hyperion.hyperion.models.enhanced - INFO - _prepare_enhanced_data:290 - Target 1d_volatility: 1388 samples, 1 NaN
+2025-07-28 19:24:05,699 - hyperion.hyperion.models.enhanced - INFO - _prepare_enhanced_data:290 - Target 1d_trend: 1388 samples, 0 NaN
+2025-07-28 19:24:05,699 - hyperion.hyperion.models.enhanced - INFO - _prepare_enhanced_data:290 - Target 1d_reversal: 1388 samples, 1 NaN
+2025-07-28 19:24:05,699 - hyperion.hyperion.models.enhanced - INFO - _prepare_enhanced_data:290 - Target original_close: 1388 samples, 0 NaN
+2025-07-28 19:24:05,699 - hyperion.hyperion.models.enhanced - INFO - _prepare_enhanced_data:290 - Target original_returns: 1388 samples, 0 NaN
+2025-07-28 19:24:05,699 - hyperion.hyperion.models.enhanced - INFO - _prepare_enhanced_data:290 - Target original_volatility: 1388 samples, 0 NaN
+2025-07-28 19:24:05,699 - hyperion.hyperion.models.enhanced - INFO - train_enhanced_models:117 - Training enhanced models for target: 1m_returns
+2025-07-28 19:24:05,699 - hyperion.hyperion.models.enhanced - ERROR - _train_enhanced_target_models:421 - NaN values found in target for 1m_returns
+2025-07-28 19:24:05,699 - hyperion.hyperion.models.enhanced - INFO - train_enhanced_models:117 - Training enhanced models for target: 1m_momentum
+2025-07-28 19:24:05,699 - hyperion.hyperion.models.enhanced - ERROR - _train_enhanced_target_models:421 - NaN values found in target for 1m_momentum
+2025-07-28 19:24:05,699 - hyperion.hyperion.models.enhanced - INFO - train_enhanced_models:117 - Training enhanced models for target: 1m_trend
+2025-07-28 19:24:05,716 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_target_models:429 - Training data shapes for 1m_trend: X_train=(1110, 407), y_train=(1110,)
+2025-07-28 19:24:05,716 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_lightgbm:477 - Training enhanced LightGBM for 1m_trend
+2025-07-28 19:24:05,783 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_target_models:435 - ✅ LightGBM trained successfully for 1m_trend
+2025-07-28 19:24:05,783 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_xgboost:535 - Training enhanced XGBoost for 1m_trend
+2025-07-28 19:24:09,259 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_target_models:443 - ✅ XGBoost trained successfully for 1m_trend
+2025-07-28 19:24:09,259 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_random_forest:587 - Training enhanced Random Forest for 1m_trend
+2025-07-28 19:24:09,700 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_target_models:451 - ✅ Random Forest trained successfully for 1m_trend
+2025-07-28 19:24:09,700 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_neural_network:633 - Training enhanced Neural Network for 1m_trend
+2025-07-28 19:24:38,677 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_target_models:460 - ✅ Neural Network trained successfully for 1m_trend
+2025-07-28 19:24:38,677 - hyperion.hyperion.models.enhanced - INFO - _apply_walk_forward_optimization:734 - Applying walk-forward optimization for 1m_trend
+2025-07-28 19:24:42,848 - hyperion.hyperion.models.enhanced - INFO - _apply_walk_forward_optimization:747 - Skipping walk-forward optimization for neural network (matrix size compatibility)
+2025-07-28 19:24:42,848 - hyperion.hyperion.models.enhanced - INFO - train_enhanced_models:117 - Training enhanced models for target: 5m_returns
+2025-07-28 19:24:42,848 - hyperion.hyperion.models.enhanced - ERROR - _train_enhanced_target_models:421 - NaN values found in target for 5m_returns
+2025-07-28 19:24:42,848 - hyperion.hyperion.models.enhanced - INFO - train_enhanced_models:117 - Training enhanced models for target: 5m_volatility
+2025-07-28 19:24:42,861 - hyperion.hyperion.models.enhanced - ERROR - _train_enhanced_target_models:421 - NaN values found in target for 5m_volatility
+2025-07-28 19:24:42,861 - hyperion.hyperion.models.enhanced - INFO - train_enhanced_models:117 - Training enhanced models for target: 5m_momentum
+2025-07-28 19:24:42,861 - hyperion.hyperion.models.enhanced - ERROR - _train_enhanced_target_models:421 - NaN values found in target for 5m_momentum
+2025-07-28 19:24:42,908 - hyperion.hyperion.models.enhanced - INFO - train_enhanced_models:117 - Training enhanced models for target: 5m_trend
+2025-07-28 19:24:42,924 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_target_models:429 - Training data shapes for 5m_trend: X_train=(1110, 407), y_train=(1110,)
+2025-07-28 19:24:42,924 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_lightgbm:477 - Training enhanced LightGBM for 5m_trend
+2025-07-28 19:24:43,536 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_target_models:435 - ✅ LightGBM trained successfully for 5m_trend
+2025-07-28 19:24:43,536 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_xgboost:535 - Training enhanced XGBoost for 5m_trend
+2025-07-28 19:24:47,909 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_target_models:443 - ✅ XGBoost trained successfully for 5m_trend
+2025-07-28 19:24:47,909 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_random_forest:587 - Training enhanced Random Forest for 5m_trend
+2025-07-28 19:24:48,437 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_target_models:451 - ✅ Random Forest trained successfully for 5m_trend
+2025-07-28 19:24:48,437 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_neural_network:633 - Training enhanced Neural Network for 5m_trend
+2025-07-28 19:24:59,651 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_target_models:460 - ✅ Neural Network trained successfully for 5m_trend
+2025-07-28 19:24:59,651 - hyperion.hyperion.models.enhanced - INFO - _apply_walk_forward_optimization:734 - Applying walk-forward optimization for 5m_trend
+2025-07-28 19:25:05,981 - hyperion.hyperion.models.enhanced - INFO - _apply_walk_forward_optimization:747 - Skipping walk-forward optimization for neural network (matrix size compatibility)
+2025-07-28 19:25:05,981 - hyperion.hyperion.models.enhanced - INFO - train_enhanced_models:117 - Training enhanced models for target: 5m_reversal
+2025-07-28 19:25:05,989 - hyperion.hyperion.models.enhanced - ERROR - _train_enhanced_target_models:421 - NaN values found in target for 5m_reversal
+2025-07-28 19:25:05,989 - hyperion.hyperion.models.enhanced - INFO - train_enhanced_models:117 - Training enhanced models for target: 15m_returns
+2025-07-28 19:25:05,989 - hyperion.hyperion.models.enhanced - ERROR - _train_enhanced_target_models:421 - NaN values found in target for 15m_returns
+2025-07-28 19:25:05,989 - hyperion.hyperion.models.enhanced - INFO - train_enhanced_models:117 - Training enhanced models for target: 15m_volatility
+2025-07-28 19:25:05,989 - hyperion.hyperion.models.enhanced - ERROR - _train_enhanced_target_models:421 - NaN values found in target for 15m_volatility
+2025-07-28 19:25:05,989 - hyperion.hyperion.models.enhanced - INFO - train_enhanced_models:117 - Training enhanced models for target: 15m_momentum
+2025-07-28 19:25:06,005 - hyperion.hyperion.models.enhanced - ERROR - _train_enhanced_target_models:421 - NaN values found in target for 15m_momentum
+2025-07-28 19:25:06,005 - hyperion.hyperion.models.enhanced - INFO - train_enhanced_models:117 - Training enhanced models for target: 15m_trend
+2025-07-28 19:25:06,005 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_target_models:429 - Training data shapes for 15m_trend: X_train=(1110, 407), y_train=(1110,)
+2025-07-28 19:25:06,005 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_lightgbm:477 - Training enhanced LightGBM for 15m_trend
+2025-07-28 19:25:06,915 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_target_models:435 - ✅ LightGBM trained successfully for 15m_trend
+2025-07-28 19:25:06,915 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_xgboost:535 - Training enhanced XGBoost for 15m_trend
+2025-07-28 19:25:10,839 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_target_models:443 - ✅ XGBoost trained successfully for 15m_trend
+2025-07-28 19:25:10,839 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_random_forest:587 - Training enhanced Random Forest for 15m_trend
+2025-07-28 19:25:11,345 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_target_models:451 - ✅ Random Forest trained successfully for 15m_trend
+2025-07-28 19:25:11,345 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_neural_network:633 - Training enhanced Neural Network for 15m_trend
+2025-07-28 19:25:21,145 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_target_models:460 - ✅ Neural Network trained successfully for 15m_trend
+2025-07-28 19:25:21,146 - hyperion.hyperion.models.enhanced - INFO - _apply_walk_forward_optimization:734 - Applying walk-forward optimization for 15m_trend
+2025-07-28 19:25:26,226 - hyperion.hyperion.models.enhanced - INFO - _apply_walk_forward_optimization:747 - Skipping walk-forward optimization for neural network (matrix size compatibility)
+2025-07-28 19:25:26,226 - hyperion.hyperion.models.enhanced - INFO - train_enhanced_models:117 - Training enhanced models for target: 15m_reversal
+2025-07-28 19:25:26,226 - hyperion.hyperion.models.enhanced - ERROR - _train_enhanced_target_models:421 - NaN values found in target for 15m_reversal
+2025-07-28 19:25:26,226 - hyperion.hyperion.models.enhanced - INFO - train_enhanced_models:117 - Training enhanced models for target: 30m_returns
+2025-07-28 19:25:26,226 - hyperion.hyperion.models.enhanced - ERROR - _train_enhanced_target_models:421 - NaN values found in target for 30m_returns
+2025-07-28 19:25:26,226 - hyperion.hyperion.models.enhanced - INFO - train_enhanced_models:117 - Training enhanced models for target: 30m_volatility
+2025-07-28 19:25:26,242 - hyperion.hyperion.models.enhanced - ERROR - _train_enhanced_target_models:421 - NaN values found in target for 30m_volatility
+2025-07-28 19:25:26,242 - hyperion.hyperion.models.enhanced - INFO - train_enhanced_models:117 - Training enhanced models for target: 30m_momentum
+2025-07-28 19:25:26,242 - hyperion.hyperion.models.enhanced - ERROR - _train_enhanced_target_models:421 - NaN values found in target for 30m_momentum
+2025-07-28 19:25:26,242 - hyperion.hyperion.models.enhanced - INFO - train_enhanced_models:117 - Training enhanced models for target: 30m_trend
+2025-07-28 19:25:26,242 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_target_models:429 - Training data shapes for 30m_trend: X_train=(1110, 407), y_train=(1110,)
+2025-07-28 19:25:26,242 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_lightgbm:477 - Training enhanced LightGBM for 30m_trend
+2025-07-28 19:25:26,587 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_target_models:435 - ✅ LightGBM trained successfully for 30m_trend
+2025-07-28 19:25:26,587 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_xgboost:535 - Training enhanced XGBoost for 30m_trend
+2025-07-28 19:25:30,435 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_target_models:443 - ✅ XGBoost trained successfully for 30m_trend
+2025-07-28 19:25:30,436 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_random_forest:587 - Training enhanced Random Forest for 30m_trend
+2025-07-28 19:25:30,938 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_target_models:451 - ✅ Random Forest trained successfully for 30m_trend
+2025-07-28 19:25:30,938 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_neural_network:633 - Training enhanced Neural Network for 30m_trend
+2025-07-28 19:25:39,871 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_target_models:460 - ✅ Neural Network trained successfully for 30m_trend
+2025-07-28 19:25:39,871 - hyperion.hyperion.models.enhanced - INFO - _apply_walk_forward_optimization:734 - Applying walk-forward optimization for 30m_trend
+2025-07-28 19:25:44,969 - hyperion.hyperion.models.enhanced - INFO - _apply_walk_forward_optimization:747 - Skipping walk-forward optimization for neural network (matrix size compatibility)
+2025-07-28 19:25:44,969 - hyperion.hyperion.models.enhanced - INFO - train_enhanced_models:117 - Training enhanced models for target: 30m_reversal
+2025-07-28 19:25:44,969 - hyperion.hyperion.models.enhanced - ERROR - _train_enhanced_target_models:421 - NaN values found in target for 30m_reversal
+2025-07-28 19:25:44,969 - hyperion.hyperion.models.enhanced - INFO - train_enhanced_models:117 - Training enhanced models for target: 1h_returns
+2025-07-28 19:25:44,985 - hyperion.hyperion.models.enhanced - ERROR - _train_enhanced_target_models:421 - NaN values found in target for 1h_returns
+2025-07-28 19:25:44,986 - hyperion.hyperion.models.enhanced - INFO - train_enhanced_models:117 - Training enhanced models for target: 1h_volatility
+2025-07-28 19:25:44,986 - hyperion.hyperion.models.enhanced - ERROR - _train_enhanced_target_models:421 - NaN values found in target for 1h_volatility
+2025-07-28 19:25:44,986 - hyperion.hyperion.models.enhanced - INFO - train_enhanced_models:117 - Training enhanced models for target: 1h_momentum
+2025-07-28 19:25:44,986 - hyperion.hyperion.models.enhanced - ERROR - _train_enhanced_target_models:421 - NaN values found in target for 1h_momentum
+2025-07-28 19:25:44,986 - hyperion.hyperion.models.enhanced - INFO - train_enhanced_models:117 - Training enhanced models for target: 1h_trend
+2025-07-28 19:25:44,986 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_target_models:429 - Training data shapes for 1h_trend: X_train=(1110, 407), y_train=(1110,)
+2025-07-28 19:25:44,986 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_lightgbm:477 - Training enhanced LightGBM for 1h_trend
+2025-07-28 19:25:45,845 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_target_models:435 - ✅ LightGBM trained successfully for 1h_trend
+2025-07-28 19:25:45,846 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_xgboost:535 - Training enhanced XGBoost for 1h_trend
+2025-07-28 19:25:49,862 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_target_models:443 - ✅ XGBoost trained successfully for 1h_trend
+2025-07-28 19:25:49,877 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_random_forest:587 - Training enhanced Random Forest for 1h_trend
+2025-07-28 19:25:50,389 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_target_models:451 - ✅ Random Forest trained successfully for 1h_trend
+2025-07-28 19:25:50,389 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_neural_network:633 - Training enhanced Neural Network for 1h_trend
+2025-07-28 19:25:56,286 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_target_models:460 - ✅ Neural Network trained successfully for 1h_trend
+2025-07-28 19:25:56,286 - hyperion.hyperion.models.enhanced - INFO - _apply_walk_forward_optimization:734 - Applying walk-forward optimization for 1h_trend
+2025-07-28 19:26:01,463 - hyperion.hyperion.models.enhanced - INFO - _apply_walk_forward_optimization:747 - Skipping walk-forward optimization for neural network (matrix size compatibility)
+2025-07-28 19:26:01,463 - hyperion.hyperion.models.enhanced - INFO - train_enhanced_models:117 - Training enhanced models for target: 1h_reversal
+2025-07-28 19:26:01,463 - hyperion.hyperion.models.enhanced - ERROR - _train_enhanced_target_models:421 - NaN values found in target for 1h_reversal
+2025-07-28 19:26:01,475 - hyperion.hyperion.models.enhanced - INFO - train_enhanced_models:117 - Training enhanced models for target: 4h_returns
+2025-07-28 19:26:01,475 - hyperion.hyperion.models.enhanced - ERROR - _train_enhanced_target_models:421 - NaN values found in target for 4h_returns
+2025-07-28 19:26:01,475 - hyperion.hyperion.models.enhanced - INFO - train_enhanced_models:117 - Training enhanced models for target: 4h_volatility
+2025-07-28 19:26:01,475 - hyperion.hyperion.models.enhanced - ERROR - _train_enhanced_target_models:421 - NaN values found in target for 4h_volatility
+2025-07-28 19:26:01,475 - hyperion.hyperion.models.enhanced - INFO - train_enhanced_models:117 - Training enhanced models for target: 4h_momentum
+2025-07-28 19:26:01,475 - hyperion.hyperion.models.enhanced - ERROR - _train_enhanced_target_models:421 - NaN values found in target for 4h_momentum
+2025-07-28 19:26:01,475 - hyperion.hyperion.models.enhanced - INFO - train_enhanced_models:117 - Training enhanced models for target: 4h_trend
+2025-07-28 19:26:01,491 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_target_models:429 - Training data shapes for 4h_trend: X_train=(1110, 407), y_train=(1110,)
+2025-07-28 19:26:01,491 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_lightgbm:477 - Training enhanced LightGBM for 4h_trend
+2025-07-28 19:26:02,713 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_target_models:435 - ✅ LightGBM trained successfully for 4h_trend
+2025-07-28 19:26:02,714 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_xgboost:535 - Training enhanced XGBoost for 4h_trend
+2025-07-28 19:26:07,006 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_target_models:443 - ✅ XGBoost trained successfully for 4h_trend
+2025-07-28 19:26:07,007 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_random_forest:587 - Training enhanced Random Forest for 4h_trend
+2025-07-28 19:26:07,549 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_target_models:451 - ✅ Random Forest trained successfully for 4h_trend
+2025-07-28 19:26:07,549 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_neural_network:633 - Training enhanced Neural Network for 4h_trend
+2025-07-28 19:26:13,620 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_target_models:460 - ✅ Neural Network trained successfully for 4h_trend
+2025-07-28 19:26:13,620 - hyperion.hyperion.models.enhanced - INFO - _apply_walk_forward_optimization:734 - Applying walk-forward optimization for 4h_trend
+2025-07-28 19:26:18,770 - hyperion.hyperion.models.enhanced - INFO - _apply_walk_forward_optimization:747 - Skipping walk-forward optimization for neural network (matrix size compatibility)
+2025-07-28 19:26:18,770 - hyperion.hyperion.models.enhanced - INFO - train_enhanced_models:117 - Training enhanced models for target: 4h_reversal
+2025-07-28 19:26:18,780 - hyperion.hyperion.models.enhanced - ERROR - _train_enhanced_target_models:421 - NaN values found in target for 4h_reversal
+2025-07-28 19:26:18,780 - hyperion.hyperion.models.enhanced - INFO - train_enhanced_models:117 - Training enhanced models for target: 1d_volatility
+2025-07-28 19:26:18,780 - hyperion.hyperion.models.enhanced - ERROR - _train_enhanced_target_models:421 - NaN values found in target for 1d_volatility
+2025-07-28 19:26:18,780 - hyperion.hyperion.models.enhanced - INFO - train_enhanced_models:117 - Training enhanced models for target: 1d_trend
+2025-07-28 19:26:18,780 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_target_models:429 - Training data shapes for 1d_trend: X_train=(1110, 407), y_train=(1110,)
+2025-07-28 19:26:18,780 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_lightgbm:477 - Training enhanced LightGBM for 1d_trend
+2025-07-28 19:26:19,015 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_target_models:435 - ✅ LightGBM trained successfully for 1d_trend
+2025-07-28 19:26:19,015 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_xgboost:535 - Training enhanced XGBoost for 1d_trend
+2025-07-28 19:26:22,958 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_target_models:443 - ✅ XGBoost trained successfully for 1d_trend
+2025-07-28 19:26:22,959 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_random_forest:587 - Training enhanced Random Forest for 1d_trend
+2025-07-28 19:26:23,697 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_target_models:451 - ✅ Random Forest trained successfully for 1d_trend
+2025-07-28 19:26:23,697 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_neural_network:633 - Training enhanced Neural Network for 1d_trend
+2025-07-28 19:26:33,511 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_target_models:460 - ✅ Neural Network trained successfully for 1d_trend
+2025-07-28 19:26:33,511 - hyperion.hyperion.models.enhanced - INFO - _apply_walk_forward_optimization:734 - Applying walk-forward optimization for 1d_trend
+2025-07-28 19:26:38,584 - hyperion.hyperion.models.enhanced - INFO - _apply_walk_forward_optimization:747 - Skipping walk-forward optimization for neural network (matrix size compatibility)
+2025-07-28 19:26:38,587 - hyperion.hyperion.models.enhanced - INFO - train_enhanced_models:117 - Training enhanced models for target: 1d_reversal
+2025-07-28 19:26:38,591 - hyperion.hyperion.models.enhanced - ERROR - _train_enhanced_target_models:421 - NaN values found in target for 1d_reversal
+2025-07-28 19:26:38,592 - hyperion.hyperion.models.enhanced - INFO - train_enhanced_models:117 - Training enhanced models for target: original_close
+2025-07-28 19:26:38,596 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_target_models:429 - Training data shapes for original_close: X_train=(1110, 407), y_train=(1110,)
+2025-07-28 19:26:38,598 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_lightgbm:477 - Training enhanced LightGBM for original_close
+2025-07-28 19:26:38,670 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_target_models:435 - ✅ LightGBM trained successfully for original_close
+2025-07-28 19:26:38,670 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_xgboost:535 - Training enhanced XGBoost for original_close
+2025-07-28 19:26:42,459 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_target_models:443 - ✅ XGBoost trained successfully for original_close
+2025-07-28 19:26:42,459 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_random_forest:587 - Training enhanced Random Forest for original_close
+2025-07-28 19:26:43,032 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_target_models:451 - ✅ Random Forest trained successfully for original_close
+2025-07-28 19:26:43,032 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_neural_network:633 - Training enhanced Neural Network for original_close
+2025-07-28 19:27:06,304 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_target_models:460 - ✅ Neural Network trained successfully for original_close
+2025-07-28 19:27:06,306 - hyperion.hyperion.models.enhanced - INFO - _apply_walk_forward_optimization:734 - Applying walk-forward optimization for original_close
+2025-07-28 19:27:06,312 - hyperion.hyperion.models.enhanced - WARNING - _apply_walk_forward_optimization:760 - Walk-forward optimization failed for lightgbm: Input contains NaN.
+2025-07-28 19:27:06,318 - hyperion.hyperion.models.enhanced - WARNING - _apply_walk_forward_optimization:760 - Walk-forward optimization failed for xgboost: Input contains NaN.
+2025-07-28 19:27:06,322 - hyperion.hyperion.models.enhanced - WARNING - _apply_walk_forward_optimization:760 - Walk-forward optimization failed for random_forest: Input contains NaN.
+2025-07-28 19:27:06,323 - hyperion.hyperion.models.enhanced - INFO - _apply_walk_forward_optimization:747 - Skipping walk-forward optimization for neural network (matrix size compatibility)
+2025-07-28 19:27:06,324 - hyperion.hyperion.models.enhanced - INFO - train_enhanced_models:117 - Training enhanced models for target: original_returns
+2025-07-28 19:27:06,328 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_target_models:429 - Training data shapes for original_returns: X_train=(1110, 407), y_train=(1110,)
+2025-07-28 19:27:06,329 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_lightgbm:477 - Training enhanced LightGBM for original_returns
+2025-07-28 19:27:06,509 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_target_models:435 - ✅ LightGBM trained successfully for original_returns
+2025-07-28 19:27:06,510 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_xgboost:535 - Training enhanced XGBoost for original_returns
+2025-07-28 19:27:10,371 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_target_models:443 - ✅ XGBoost trained successfully for original_returns
+2025-07-28 19:27:10,371 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_random_forest:587 - Training enhanced Random Forest for original_returns
+2025-07-28 19:27:11,007 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_target_models:451 - ✅ Random Forest trained successfully for original_returns
+2025-07-28 19:27:11,007 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_neural_network:633 - Training enhanced Neural Network for original_returns
+2025-07-28 19:27:31,225 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_target_models:460 - ✅ Neural Network trained successfully for original_returns
+2025-07-28 19:27:31,225 - hyperion.hyperion.models.enhanced - INFO - _apply_walk_forward_optimization:734 - Applying walk-forward optimization for original_returns
+2025-07-28 19:27:31,232 - hyperion.hyperion.models.enhanced - WARNING - _apply_walk_forward_optimization:760 - Walk-forward optimization failed for lightgbm: Input contains NaN.
+2025-07-28 19:27:31,236 - hyperion.hyperion.models.enhanced - WARNING - _apply_walk_forward_optimization:760 - Walk-forward optimization failed for xgboost: Input contains NaN.
+2025-07-28 19:27:31,241 - hyperion.hyperion.models.enhanced - WARNING - _apply_walk_forward_optimization:760 - Walk-forward optimization failed for random_forest: Input contains NaN.
+2025-07-28 19:27:31,242 - hyperion.hyperion.models.enhanced - INFO - _apply_walk_forward_optimization:747 - Skipping walk-forward optimization for neural network (matrix size compatibility)
+2025-07-28 19:27:31,242 - hyperion.hyperion.models.enhanced - INFO - train_enhanced_models:117 - Training enhanced models for target: original_volatility
+2025-07-28 19:27:31,246 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_target_models:429 - Training data shapes for original_volatility: X_train=(1110, 407), y_train=(1110,)
+2025-07-28 19:27:31,247 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_lightgbm:477 - Training enhanced LightGBM for original_volatility
+2025-07-28 19:27:31,324 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_target_models:435 - ✅ LightGBM trained successfully for original_volatility
+2025-07-28 19:27:31,324 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_xgboost:535 - Training enhanced XGBoost for original_volatility
+2025-07-28 19:27:35,070 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_target_models:443 - ✅ XGBoost trained successfully for original_volatility
+2025-07-28 19:27:35,070 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_random_forest:587 - Training enhanced Random Forest for original_volatility
+2025-07-28 19:27:35,630 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_target_models:451 - ✅ Random Forest trained successfully for original_volatility
+2025-07-28 19:27:35,630 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_neural_network:633 - Training enhanced Neural Network for original_volatility
+2025-07-28 19:28:01,719 - hyperion.hyperion.models.enhanced - INFO - _train_enhanced_target_models:460 - ✅ Neural Network trained successfully for original_volatility
+2025-07-28 19:28:01,720 - hyperion.hyperion.models.enhanced - INFO - _apply_walk_forward_optimization:734 - Applying walk-forward optimization for original_volatility
+2025-07-28 19:28:01,726 - hyperion.hyperion.models.enhanced - WARNING - _apply_walk_forward_optimization:760 - Walk-forward optimization failed for lightgbm: Input contains NaN.
+2025-07-28 19:28:01,732 - hyperion.hyperion.models.enhanced - WARNING - _apply_walk_forward_optimization:760 - Walk-forward optimization failed for xgboost: Input contains NaN.
+2025-07-28 19:28:01,737 - hyperion.hyperion.models.enhanced - WARNING - _apply_walk_forward_optimization:760 - Walk-forward optimization failed for random_forest: Input contains NaN.
+2025-07-28 19:28:01,737 - hyperion.hyperion.models.enhanced - INFO - _apply_walk_forward_optimization:747 - Skipping walk-forward optimization for neural network (matrix size compatibility)
+2025-07-28 19:28:01,738 - hyperion.hyperion.models.enhanced - INFO - train_enhanced_models:142 - Optimizing ensemble weights
+2025-07-28 19:28:01,738 - hyperion.hyperion.models.enhanced - INFO - _optimize_ensemble_weights:770 - Optimizing ensemble weights
+2025-07-28 19:28:01,738 - hyperion.hyperion.models.enhanced - INFO - _optimize_ensemble_weights:806 - Ensemble weights for 1m_trend: {'lightgbm': 0.5, 'xgboost': 0.5}
+2025-07-28 19:28:01,739 - hyperion.hyperion.models.enhanced - INFO - _optimize_ensemble_weights:806 - Ensemble weights for forest_1m_trend: {'random': 1.0}
+2025-07-28 19:28:01,739 - hyperion.hyperion.models.enhanced - INFO - _optimize_ensemble_weights:806 - Ensemble weights for network_1m_trend: {'neural': 1.0}
+2025-07-28 19:28:01,739 - hyperion.hyperion.models.enhanced - INFO - _optimize_ensemble_weights:806 - Ensemble weights for 5m_trend: {'lightgbm': 0.5240289922573618, 'xgboost': 0.4759710077426383}
+2025-07-28 19:28:01,739 - hyperion.hyperion.models.enhanced - INFO - _optimize_ensemble_weights:806 - Ensemble weights for forest_5m_trend: {'random': 1.0}
+2025-07-28 19:28:01,740 - hyperion.hyperion.models.enhanced - INFO - _optimize_ensemble_weights:806 - Ensemble weights for network_5m_trend: {'neural': 1.0}
+2025-07-28 19:28:01,740 - hyperion.hyperion.models.enhanced - INFO - _optimize_ensemble_weights:806 - Ensemble weights for 15m_trend: {'lightgbm': 0.5056079593512575, 'xgboost': 0.49439204064874254}
+2025-07-28 19:28:01,740 - hyperion.hyperion.models.enhanced - INFO - _optimize_ensemble_weights:806 - Ensemble weights for forest_15m_trend: {'random': 1.0}
+2025-07-28 19:28:01,741 - hyperion.hyperion.models.enhanced - INFO - _optimize_ensemble_weights:806 - Ensemble weights for network_15m_trend: {'neural': 1.0}
+2025-07-28 19:28:01,741 - hyperion.hyperion.models.enhanced - INFO - _optimize_ensemble_weights:806 - Ensemble weights for 30m_trend: {'lightgbm': 0.4953255105295367, 'xgboost': 0.5046744894704632}
+2025-07-28 19:28:01,741 - hyperion.hyperion.models.enhanced - INFO - _optimize_ensemble_weights:806 - Ensemble weights for forest_30m_trend: {'random': 1.0}
+2025-07-28 19:28:01,741 - hyperion.hyperion.models.enhanced - INFO - _optimize_ensemble_weights:806 - Ensemble weights for network_30m_trend: {'neural': 1.0}
+2025-07-28 19:28:01,742 - hyperion.hyperion.models.enhanced - INFO - _optimize_ensemble_weights:806 - Ensemble weights for 1h_trend: {'lightgbm': 0.5349314572697539, 'xgboost': 0.46506854273024617}
+2025-07-28 19:28:01,742 - hyperion.hyperion.models.enhanced - INFO - _optimize_ensemble_weights:806 - Ensemble weights for forest_1h_trend: {'random': 1.0}
+2025-07-28 19:28:01,742 - hyperion.hyperion.models.enhanced - INFO - _optimize_ensemble_weights:806 - Ensemble weights for network_1h_trend: {'neural': 1.0}
+2025-07-28 19:28:01,743 - hyperion.hyperion.models.enhanced - INFO - _optimize_ensemble_weights:806 - Ensemble weights for 4h_trend: {'lightgbm': 0.5, 'xgboost': 0.5}
+2025-07-28 19:28:01,743 - hyperion.hyperion.models.enhanced - INFO - _optimize_ensemble_weights:806 - Ensemble weights for forest_4h_trend: {'random': 1.0}
+2025-07-28 19:28:01,743 - hyperion.hyperion.models.enhanced - INFO - _optimize_ensemble_weights:806 - Ensemble weights for network_4h_trend: {'neural': 1.0}
+2025-07-28 19:28:01,744 - hyperion.hyperion.models.enhanced - INFO - _optimize_ensemble_weights:806 - Ensemble weights for 1d_trend: {'lightgbm': 0.5, 'xgboost': 0.5}
+2025-07-28 19:28:01,744 - hyperion.hyperion.models.enhanced - INFO - _optimize_ensemble_weights:806 - Ensemble weights for forest_1d_trend: {'random': 1.0}
+2025-07-28 19:28:01,744 - hyperion.hyperion.models.enhanced - INFO - _optimize_ensemble_weights:806 - Ensemble weights for network_1d_trend: {'neural': 1.0}
+2025-07-28 19:28:01,744 - hyperion.hyperion.models.enhanced - INFO - _optimize_ensemble_weights:806 - Ensemble weights for original_close: {'lightgbm': 0.5, 'xgboost': 0.5}
+2025-07-28 19:28:01,745 - hyperion.hyperion.models.enhanced - INFO - _optimize_ensemble_weights:806 - Ensemble weights for forest_original_close: {'random': 1.0}
+2025-07-28 19:28:01,745 - hyperion.hyperion.models.enhanced - INFO - _optimize_ensemble_weights:806 - Ensemble weights for network_original_close: {'neural': 1.0}
+2025-07-28 19:28:01,745 - hyperion.hyperion.models.enhanced - INFO - _optimize_ensemble_weights:806 - Ensemble weights for original_returns: {'lightgbm': 0.5, 'xgboost': 0.5}
+2025-07-28 19:28:01,746 - hyperion.hyperion.models.enhanced - INFO - _optimize_ensemble_weights:806 - Ensemble weights for forest_original_returns: {'random': 1.0}
+2025-07-28 19:28:01,746 - hyperion.hyperion.models.enhanced - INFO - _optimize_ensemble_weights:806 - Ensemble weights for network_original_returns: {'neural': 1.0}
+2025-07-28 19:28:01,746 - hyperion.hyperion.models.enhanced - INFO - _optimize_ensemble_weights:806 - Ensemble weights for original_volatility: {'lightgbm': 0.5, 'xgboost': 0.5}
+2025-07-28 19:28:01,747 - hyperion.hyperion.models.enhanced - INFO - _optimize_ensemble_weights:806 - Ensemble weights for forest_original_volatility: {'random': 1.0}
+2025-07-28 19:28:01,747 - hyperion.hyperion.models.enhanced - INFO - _optimize_ensemble_weights:806 - Ensemble weights for network_original_volatility: {'neural': 1.0}
+2025-07-28 19:28:01,747 - hyperion.hyperion.models.enhanced - INFO - train_enhanced_models:146 - Applying meta-learning
+2025-07-28 19:28:01,747 - hyperion.hyperion.models.enhanced - INFO - _apply_meta_learning:814 - Applying meta-learning
+2025-07-28 19:28:01,748 - hyperion.hyperion.models.enhanced - ERROR - _apply_meta_learning:856 - Error applying meta-learning: name 'info' is not defined
+2025-07-28 19:28:01,748 - hyperion.hyperion.models.enhanced - INFO - train_enhanced_models:150 - Models versioned and saved with timestamp: 20250728_192801
+2025-07-28 19:28:03,416 - hyperion.hyperion.models.enhanced - INFO - _version_and_save_models:919 - Models versioned and saved with timestamp: 20250728_192801
+2025-07-28 19:28:03,417 - hyperion.hyperion.models.enhanced - INFO - train_enhanced_models:178 - Enhanced training completed. Trained 40 target models

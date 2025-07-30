@@ -1,0 +1,45 @@
+2025-07-19 23:54:29,151 - INFO - ============================================================
+2025-07-19 23:54:29,152 - INFO - Verifying ALL components stay under 1,200 weight per minute
+2025-07-19 23:54:29,152 - INFO - ============================================================
+2025-07-19 23:54:29,684 - INFO -    REQUEST_WEIGHT: 1200/min
+2025-07-19 23:54:29,684 - INFO -    RAW_REQUESTS: 6100/5min
+2025-07-19 23:54:29,684 - INFO -    ORDERS: 50/10s, 160000/day
+2025-07-19 23:54:29,684 - INFO -    SAPI: 12000/min (IP), 180000/min (UID)
+2025-07-19 23:54:29,686 - INFO -    REQUEST_WEIGHT_1M: 1200
+2025-07-19 23:54:29,686 - INFO -    SAFETY_MARGIN: 0.8
+2025-07-19 23:54:29,686 - INFO -    Effective Limit: 960.0
+2025-07-19 23:54:29,689 - INFO -    Klines Weight: 2
+2025-07-19 23:54:29,707 - INFO -    Binance limits: 1200/min, 20/sec
+2025-07-19 23:54:29,707 - INFO -    Safety limits: 1000/min, 15/sec
+2025-07-19 23:54:29,709 - INFO -    Binance Limit: 1200/min
+2025-07-19 23:54:29,709 - INFO -    Safety Limit: 1000/min
+2025-07-19 23:54:29,709 - INFO -    Second Limit: 15/sec
+2025-07-19 23:54:29,715 - INFO -    Data span: 15 days = 21600 minutes
+2025-07-19 23:54:29,715 - INFO -    Calls per symbol: 22
+2025-07-19 23:54:29,715 - INFO -    Weight per symbol: 44
+2025-07-19 23:54:29,715 - INFO -    Inter-call delay: 0.1s
+2025-07-19 23:54:29,715 - INFO -    Symbol delay: 1.0s
+2025-07-19 23:54:29,717 - INFO -    Days to fetch: 15
+2025-07-19 23:54:29,717 - INFO -    Total minutes: 21600
+2025-07-19 23:54:29,717 - INFO -    Calls per symbol: 22
+2025-07-19 23:54:29,717 - INFO -    Weight per symbol: 44
+2025-07-19 23:54:29,718 - INFO -    Inter-call delay: 0.1s
+2025-07-19 23:54:29,718 - INFO -    Symbol delay: 1.0s
+2025-07-19 23:54:29,718 - INFO -    Strategy safe: True
+2025-07-19 23:54:29,732 - INFO -    Total calls: 572
+2025-07-19 23:54:29,732 - INFO -    Total weight: 1144
+2025-07-19 23:54:29,732 - INFO -    Weight usage: 95.3%
+2025-07-19 23:54:29,732 - INFO -    Sequential time: 83s (1.4min)
+2025-07-19 23:54:29,736 - INFO -    Total calls: 572
+2025-07-19 23:54:29,736 - INFO -    Total weight: 1144
+2025-07-19 23:54:29,736 - INFO -    Weight usage: 95.3%
+2025-07-19 23:54:29,736 - INFO -    Sequential time: 83s
+2025-07-19 23:54:29,736 - INFO -    Rate limit safe: True
+2025-07-19 23:54:29,746 - INFO -    All required imports present
+2025-07-19 23:54:29,747 - INFO -    All required methods present
+2025-07-19 23:54:29,747 - INFO -    Kline fetcher properly integrated
+2025-07-19 23:54:29,747 - INFO - 
+============================================================
+2025-07-19 23:54:29,749 - INFO - ============================================================
+2025-07-19 23:54:29,759 - INFO - 
+Overall: 6/6 components passed

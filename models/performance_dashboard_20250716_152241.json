@@ -1,0 +1,84 @@
+{
+  "training_info": {
+    "training_date": "2025-07-16T15:22:41.818954",
+    "training_duration": "10:45:11.499690",
+    "total_features": 108,
+    "total_models": 72
+  },
+  "feature_quality": {
+    "total_features": 347,
+    "dropped_features": 4,
+    "high_nan_features": 0,
+    "high_zero_features": 1,
+    "quality_score": 0.9855907780979827
+  },
+  "model_performance": {
+    "average_score": 64.03278653089895,
+    "best_score": 99.76129644148799,
+    "worst_score": 38.38012794279614,
+    "score_variance": 429.5498885143859,
+    "model_count": 64,
+    "by_type": {
+      "lightgbm": {
+        "average": 46.35121504988405,
+        "count": 8,
+        "best": 48.379896233082796,
+        "worst": 44.61154607038637
+      },
+      "xgboost": {
+        "average": 95.26897448058571,
+        "count": 8,
+        "best": 99.63305412049374,
+        "worst": 92.20770203981712
+      },
+      "random": {
+        "average": 66.12206806347852,
+        "count": 8,
+        "best": 78.54539968770774,
+        "worst": 57.700506701844105
+      },
+      "catboost": {
+        "average": 97.61391747680321,
+        "count": 8,
+        "best": 99.76129644148799,
+        "worst": 95.54528631681387
+      },
+      "svm": {
+        "average": 53.02111598023209,
+        "count": 8,
+        "best": 58.14033783119788,
+        "worst": 49.06692752205815
+      },
+      "neural": {
+        "average": 45.37058884692274,
+        "count": 8,
+        "best": 47.893178814604056,
+        "worst": 43.70424403357906
+      },
+      "lstm": {
+        "average": 59.50500059600795,
+        "count": 8,
+        "best": 88.84817066606527,
+        "worst": 45.97264160582932
+      },
+      "transformer": {
+        "average": 49.009411753277085,
+        "count": 8,
+        "best": 59.265949179959826,
+        "worst": 38.38012794279614
+      }
+    }
+  },
+  "ensemble_analysis": {
+    "total_weight": 1.0000000000000007,
+    "weight_variance": 9.902402784290161e-06,
+    "max_weight": 0.023791919388468294,
+    "min_weight": 0.013820248611990356,
+    "weight_distribution": "balanced"
+  },
+  "recommendations": [
+    "Remove redundant features to reduce correlation",
+    "Tune neural network architectures and hyperparameters",
+    "Neural models underperforming compared to tree models"
+  ]
+}

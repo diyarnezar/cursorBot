@@ -1,0 +1,7 @@
+{
+  "timestamp": "2025-07-15T18:29:40.924697",
+  "training_paused": false,
+  "training_resumed": true,
+  "checkpoint_interval": 30,
+  "data": {}
+}

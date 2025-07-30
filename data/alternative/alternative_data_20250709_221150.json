@@ -1,0 +1,14 @@
+{
+  "eth_market_cap": 328213978361.39325,
+  "eth_24h_volume": 20145830759.306248,
+  "eth_24h_change": 4.04658525309822,
+  "eth_price": 2719.67,
+  "defi_pulse_index": 0,
+  "defi_24h_change": 0,
+  "reddit_sentiment": 0.003257456509539844,
+  "reddit_sentiment_std": 0.018557812981332446,
+  "reddit_engagement": 81,
+  "twitter_sentiment": 0.08940809650905243,
+  "twitter_volume": 7308,
+  "timestamp": "2025-07-09T22:11:50.374431"
+}

@@ -1,0 +1,95 @@
+{
+  "training_info": {
+    "training_date": "2025-07-14T14:09:13.826910",
+    "training_duration": "9:36:40.368647",
+    "total_features": 108,
+    "total_models": 72
+  },
+  "feature_quality": {
+    "total_features": 347,
+    "dropped_features": 4,
+    "high_nan_features": 0,
+    "high_zero_features": 2,
+    "quality_score": 0.9827089337175793
+  },
+  "model_performance": {
+    "average_score": 58.643634783265746,
+    "best_score": 99.04982375506472,
+    "worst_score": 34.56585321220167,
+    "score_variance": 441.56037059707666,
+    "model_count": 64,
+    "by_type": {
+      "lightgbm": {
+        "average": 44.79237003265071,
+        "count": 8,
+        "best": 46.95463780609011,
+        "worst": 41.80164410330802
+      },
+      "xgboost": {
+        "average": 95.21422375237059,
+        "count": 8,
+        "best": 99.04982375506472,
+        "worst": 89.639500152572
+      },
+      "random": {
+        "average": 52.15893142316886,
+        "count": 8,
+        "best": 56.77219514935738,
+        "worst": 49.768269584263365
+      },
+      "catboost": {
+        "average": 92.07068256786334,
+        "count": 8,
+        "best": 98.28247250518848,
+        "worst": 73.61752365286083
+      },
+      "svm": {
+        "average": 46.04841200333472,
+        "count": 8,
+        "best": 51.183177623674034,
+        "worst": 40.01729139402658
+      },
+      "neural": {
+        "average": 42.759536657188434,
+        "count": 8,
+        "best": 46.51276769577899,
+        "worst": 40.131894854677554
+      },
+      "lstm": {
+        "average": 50.612266082032576,
+        "count": 8,
+        "best": 61.66690794634549,
+        "worst": 42.376681896706344
+      },
+      "transformer": {
+        "average": 45.49265574751662,
+        "count": 8,
+        "best": 59.65243889097633,
+        "worst": 34.56585321220167
+      }
+    }
+  },
+  "ensemble_analysis": {
+    "total_weight": 1.0,
+    "weight_variance": 0.0005364478000812399,
+    "max_weight": 0.11583904410557197,
+    "min_weight": 0.002604090800032364,
+    "weight_distribution": "performance_based",
+    "enhanced_weights_applied": true,
+    "weight_range": 0.1132349533055396,
+    "weight_standard_deviation": 0.023161342795296646
+  },
+  "recommendations": [
+    "Remove redundant features to reduce correlation",
+    "Tune neural network architectures and hyperparameters",
+    "Neural models underperforming compared to tree models"
+  ],
+  "intelligence_enhancement": {
+    "enhancement_date": "2025-07-14T16:40:47.321911",
+    "performance_improvement_percent": 44.9,
+    "concentration_improvement_percent": 295.3,
+    "best_model_weight": 0.11583904410557197,
+    "worst_model_weight": 0.002604090800032364,
+    "weight_differentiation_factor": 44.4834888645712
+  }
+}
